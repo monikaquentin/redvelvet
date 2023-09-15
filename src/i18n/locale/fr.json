@@ -32,7 +32,7 @@
         }
       ],
       "maintenance": {
-        "p1": "Si vous voyez cette page, cela signifie que Cloudfront fonctionne correctement et que quelque chose est en cours de configuration.\nUne attente supplémentaire est nécessaire.\n\nPour plus d'informations et des demandes commerciales, veuillez vous référer à",
+        "p1": "Si vous voyez cette page, cela signifie que Cloudfront fonctionne correctement et que quelque chose est en cours de configuration. Une attente supplémentaire est nécessaire.\n\nPour plus d'informations et des demandes commerciales, veuillez vous référer à",
         "p2": "\n\nPasse une bonne journée!"
       }
     }
