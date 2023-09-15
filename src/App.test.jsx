@@ -16,7 +16,7 @@ describe('App', () => {
     )
     // ACT
     // EXPECT
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Writing')
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Write')
   })
   it('Renders not found if invalid path', () => {
     // ARRANGE
