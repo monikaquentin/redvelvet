@@ -5,12 +5,26 @@
         "write": "書く",
         "home": "RedVelvet"
       },
+      "latest": "最新",
+      "oldest": "最古",
       "paper_list": [
+        {
+          "title": "ウサギの穴を越えて自由を求めて: 論文",
+          "url": "/write/thesis",
+          "date": "2023 年 9 月",
+          "full_date": "2023 年 9 月 15 日",
+          "warning": "計画段階では",
+          "read_more": null,
+          "close": null,
+          "content": null,
+          "resolution": null,
+          "resolution_content": null
+        },
         {
           "title": "ウサギの穴に飛び込む: コンピューター サイエンスの視点",
           "url": "/write/perspective-of-computer-science",
-          "date": "2023年9月",
-          "full_date": "2023年9月12日",
+          "date": "2023 年 9 月",
+          "full_date": "2023 年 9 月 12日",
           "warning": "警告: これらのメモには、講義におけるコンピューター サイエンスに関する意見、個人的な経験、極端な視点が含まれています。 当事者を貶めたり気分を害したりすることを目的としたものではありません。 何も考えずに完全に消化しないでください。 「続きを読む」を押すと理解したものとみなされます。",
           "read_more": "続きを読む",
           "close": "閉じる",
@@ -21,8 +35,8 @@
         {
           "title": "咲く赤いバラ: はじめに",
           "url": "/write/introduction",
-          "date": "2022年8月",
-          "full_date": "2023年8月7日",
+          "date": "2023 年 8 月",
+          "full_date": "2023 年 8 月 7 日",
           "warning": null,
           "read_more": null,
           "close": null,

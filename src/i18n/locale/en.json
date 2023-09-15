@@ -5,7 +5,21 @@
         "write": "Write",
         "home": "RedVelvet"
       },
+      "latest": "Latest",
+      "oldest": "Oldest",
       "paper_list": [
+        {
+          "title": "Seeking Freedom Beyond the Rabbit Hole: Thesis",
+          "url": "/write/thesis",
+          "date": "Sep 2023",
+          "full_date": "September 15, 2023",
+          "warning": "In the planning stage",
+          "read_more": null,
+          "close": null,
+          "content": null,
+          "resolution": null,
+          "resolution_content": null
+        },
         {
           "title": "Diving into the Rabbit Hole: Perspective of Computer Science",
           "url": "/write/perspective-of-computer-science",
@@ -21,7 +35,7 @@
         {
           "title": "Blooming Red Roses: An Introduction",
           "url": "/write/introduction",
-          "date": "Aug 2022",
+          "date": "Aug 2023",
           "full_date": "August 7, 2023",
           "warning": null,
           "read_more": null,

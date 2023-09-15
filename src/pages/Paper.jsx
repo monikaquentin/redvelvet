@@ -15,6 +15,7 @@ function Paper({ data }) {
   const [read, setRead] = useState(false)
   return (
     <Container header={header}>
+      <hr className="mt-4" />
       {data.warning ? (
         <div>
           <p className="paragraph text-justify !font-semibold border border-secondary border-r-8 p-2 mt-4">

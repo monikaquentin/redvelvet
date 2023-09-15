@@ -1,6 +1,12 @@
 .writinglist {
   @apply mt-4 mb-16;
 }
+.writinglist-button-wrapper {
+  @apply text-end mr-7 -mt-[43px];
+}
+.writinglist-sort-button {
+  @apply inline-block rounded text-secondary uppercase mb-2 px-1.5 pb-[4px] pt-[4px] text-sm font-thin leading-normal transition duration-150 ease-in-out focus:outline-none focus:ring-0;
+}
 .writinglist-item {
   @apply text-sm;
   display: block;

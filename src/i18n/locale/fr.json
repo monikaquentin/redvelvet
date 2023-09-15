@@ -5,7 +5,21 @@
         "write": "Écrire",
         "home": "RedVelvet"
       },
+      "latest": "Plus récent",
+      "oldest": "Le plus ancien",
       "paper_list": [
+        {
+          "title": "À la recherche de la liberté au-delà du terrier du lapin : thèse",
+          "url": "/write/thesis",
+          "date": "Sep 2023",
+          "full_date": "15 septembre 2023",
+          "warning": "En phase de planification",
+          "read_more": null,
+          "close": null,
+          "content": null,
+          "resolution": null,
+          "resolution_content": null
+        },
         {
           "title": "Plonger dans le terrier du lapin : perspective de l'informatique",
           "url": "/write/perspective-of-computer-science",
@@ -21,7 +35,7 @@
         {
           "title": "Roses rouges en fleurs : une introduction",
           "url": "/write/introduction",
-          "date": "Août 2022",
+          "date": "Août 2023",
           "full_date": "7 août 2023",
           "warning": null,
           "read_more": null,

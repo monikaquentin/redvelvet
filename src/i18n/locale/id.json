@@ -5,7 +5,21 @@
         "write": "Menulis",
         "home": "RedVelvet"
       },
+      "latest": "Terbaru",
+      "oldest": "Terlama",
       "paper_list": [
+        {
+          "title": "Mencari Kebebasan Melampaui Lubang Kelinci: Tugas Akhir",
+          "url": "/write/thesis",
+          "date": "Sep 2023",
+          "full_date": "September 15, 2023",
+          "warning": "Dalam tahap perencanaan",
+          "read_more": null,
+          "close": null,
+          "content": null,
+          "resolution": null,
+          "resolution_content": null
+        },
         {
           "title": "Menyelami Lubang Kelinci: Perspektif Ilmu Komputer",
           "url": "/write/perspective-of-computer-science",
@@ -21,7 +35,7 @@
         {
           "title": "Bunga Mawar Merah yang Mekar: Pengantar",
           "url": "/write/introduction",
-          "date": "Ags 2022",
+          "date": "Agu 2023",
           "full_date": "7 Agustus 2023",
           "warning": null,
           "read_more": null,

@@ -5,7 +5,21 @@
         "write": "Schreiben",
         "home": "RedVelvet"
       },
+      "latest": "Neueste",
+      "oldest": "Älteste",
       "paper_list": [
+        {
+          "title": "Auf der Suche nach Freiheit jenseits des Kaninchenbaus: These",
+          "url": "/write/thesis",
+          "date": "Sep 2023",
+          "full_date": "15. September 2023",
+          "warning": "In der Planungsphase",
+          "read_more": null,
+          "close": null,
+          "content": null,
+          "resolution": null,
+          "resolution_content": null
+        },
         {
           "title": "Eintauchen in den Kaninchenbau: Perspektive der Informatik",
           "url": "/write/perspective-of-computer-science",
@@ -21,7 +35,7 @@
         {
           "title": "Blühende rote Rosen: Eine Einführung",
           "url": "/write/introduction",
-          "date": "Aug 2022",
+          "date": "Aug 2023",
           "full_date": "7. August 2023",
           "warning": null,
           "read_more": null,

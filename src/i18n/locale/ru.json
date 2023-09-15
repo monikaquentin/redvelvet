@@ -5,7 +5,21 @@
         "write": "Писать",
         "home": "RedVelvet"
       },
+      "latest": "Последние",
+      "oldest": "Старейшие",
       "paper_list": [
+        {
+          "title": "В поисках свободы за пределами кроличьей норы: диссертация",
+          "url": "/write/thesis",
+          "date": "Сентябрь 2023",
+          "full_date": "15 сентября 2023 года",
+          "warning": "На этапе планирования",
+          "read_more": null,
+          "close": null,
+          "content": null,
+          "resolution": null,
+          "resolution_content": null
+        },
         {
           "title": "Ныряние в кроличью нору: взгляд на информатику",
           "url": "/write/perspective-of-computer-science",
@@ -21,8 +35,8 @@
         {
           "title": "Цветущие красные розы: введение",
           "url": "/write/introduction",
-          "date": "Авг 2022",
-          "full_date": "7 августа 2023 г.",
+          "date": "Авг 2023",
+          "full_date": "7 августа 2023 года",
           "warning": null,
           "read_more": null,
           "close": null,
