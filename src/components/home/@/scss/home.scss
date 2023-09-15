@@ -1,0 +1,36 @@
+.container {
+  @apply relative
+  mx-auto
+  p-3;
+}
+.container .rose-img {
+  @apply absolute
+  top-[-30px]
+  right-0
+  mt-4
+  mr-4
+  max-w-[317px];
+}
+.container h3 {
+  @apply mt-0;
+}
+.container h3 a {
+  color: var(--gray-100) !important;
+}
+.container h3 a:hover {
+  color: var(--secondary-color) !important;
+}
+@media only screen and (max-width: 620px) {
+  body {
+    @apply max-w-full;
+  }
+  .container {
+    @apply mt-[-120px];
+  }
+  .container .rose-img {
+    @apply top-24
+    max-w-[200px]
+    mr-7
+    mb-[-50px];
+  }
+}

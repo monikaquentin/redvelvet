@@ -1,0 +1,58 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+./updater.tmp.sh
+.pnp.js
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env
+.env.backup
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.phpunit.result.cache
+.vscode
+
+# Logs
+logs
+*.log
+*.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# production
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# package lock
+package-lock*
+yarn.lock*
+
+# secret|public key / certificate
+*.pem
+*.cer
+*.crt
+*.der
