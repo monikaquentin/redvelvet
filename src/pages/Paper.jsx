@@ -41,7 +41,17 @@ function Paper({ data }) {
           </p>
         </div>
       ) : (
-        <p className="paragraph text-justify mt-4">{data.content}</p>
+        <p className="paragraph text-justify mt-4">
+          {data.content}
+          {data.repo_link ? (
+            <span>
+              &nbsp;
+              <a href={data.repo_link} target="_blank" rel="noopener noreferrer nofollow">
+                {data.repo}
+              </a>
+            </span>
+          ) : null}
+        </p>
       )}
     </Container>
   )

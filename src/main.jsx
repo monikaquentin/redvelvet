@@ -4,8 +4,8 @@
  * -------------------------------------------------------------------------------
  *
  * Author : <re@redvelvet.me> (https://redvelvet.me)
- * GitHub : https://github.com/redvelvetme
- * GitLab : https://gitlab.com/redvelvetme
+ * GitHub : https://github.com/monikaquentin
+ * GitLab : https://gitlab.com/monikaquentin
  *
  */
 
