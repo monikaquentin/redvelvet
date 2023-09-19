@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-import ThirdRose from '@/assets/png/third-rose.png'
+import RedRose from '@/assets/png/redrose.png'
 import Navigation from '@/components/global/Navigation'
 
 Header.propTypes = {
@@ -11,7 +11,7 @@ Header.propTypes = {
 function Header({ title, date }) {
   return (
     <div>
-      <img src={ThirdRose} alt="" className="rose-img" />
+      <img src={RedRose} alt="RedVelvet" className="rose-img" />
       <Navigation />
       <h1 className="tracking-tight text-3xl font-bold mt-5">{title}</h1>
       <h3 className="tracking-tight text-lg mt-2">
