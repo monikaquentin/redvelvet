@@ -11,12 +11,12 @@
             "subtitle": "Chiffrement de bout en bout | Célibataire"
           },
           "multiple": {
-            "description": "Multiple elliptic curve key exchange with Diffie-Hellman and AES-256-GCM (Galois/Counter Mode) algorithm. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "description": "Échange de clés à courbe elliptique multiple avec l'algorithme Diffie-Hellman et AES-256-GCM (Galois/Counter Mode). Absolument aucune donnée ne quitte ce site. Tout est dans votre machine, toutes les données en file d'attente sont immédiatement purgées après avoir été traitées.",
             "info": "Les messages illisibles par l'homme émis par RedVelvet seront toujours hexadécimaux.",
             "subtitle": "Chiffrement de bout en bout | Plusieurs"
           },
           "decrypt": {
-            "description": "Only the Shared key and Hexdump (encrypted message) are required to perform decryption. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "description": "Seules la clé partagée et Hexdump (message crypté) sont requis pour effectuer le décryptage. Absolument aucune donnée ne quitte ce site. Tout est dans votre machine, toutes les données en file d'attente sont immédiatement purgées après avoir été traitées.",
             "info": "Les messages illisibles par l'homme émis par RedVelvet seront toujours hexadécimaux.",
             "subtitle": "Chiffrement de bout en bout | Décrypter"
           },

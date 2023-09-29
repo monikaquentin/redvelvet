@@ -11,12 +11,12 @@
             "subtitle": "Сквозное шифрование | Одинокий"
           },
           "multiple": {
-            "description": "Multiple elliptic curve key exchange with Diffie-Hellman and AES-256-GCM (Galois/Counter Mode) algorithm. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "description": "Обмен ключами на основе множественных эллиптических кривых с использованием алгоритма Диффи-Хеллмана и AES-256-GCM (режим Галуа/счетчика). Абсолютно никакие данные не покидают этот сайт. Все находится на вашей машине, все данные в очереди немедленно удаляются после обработки.",
             "info": "Нечитаемые человеком сообщения, выдаваемые RedVelvet, всегда будут шестнадцатеричными.",
             "subtitle": "Сквозное шифрование | Несколько"
           },
           "decrypt": {
-            "description": "Only the Shared key and Hexdump (encrypted message) are required to perform decryption. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "description": "Для расшифровки требуются только общий ключ и Hexdump (зашифрованное сообщение). Абсолютно никакие данные не покидают этот сайт. Все находится на вашей машине, все данные в очереди немедленно удаляются после обработки.",
             "info": "Нечитаемые человеком сообщения, выдаваемые RedVelvet, всегда будут шестнадцатеричными.",
             "subtitle": "Сквозное шифрование | Расшифровать"
           },
