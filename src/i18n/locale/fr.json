@@ -3,16 +3,83 @@
     "translation": {
       "pages": {
         "write": "Écrire",
-        "home": "RedVelvet"
+        "home": "RedVelvet",
+        "curve25519": {
+          "single": {
+            "description": "Échange de clés à courbe elliptique unique avec l'algorithme Diffie-Hellman et AES-256-GCM (Galois/Counter Mode). Absolument aucune donnée ne quitte ce site. Tout est dans votre machine, toutes les données en file d'attente sont immédiatement purgées après avoir été traitées.",
+            "info": "Les messages illisibles par l'homme émis par RedVelvet seront toujours hexadécimaux.",
+            "subtitle": "Chiffrement de bout en bout | Célibataire"
+          },
+          "multiple": {
+            "description": "Multiple elliptic curve key exchange with Diffie-Hellman and AES-256-GCM (Galois/Counter Mode) algorithm. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "info": "Les messages illisibles par l'homme émis par RedVelvet seront toujours hexadécimaux.",
+            "subtitle": "Chiffrement de bout en bout | Plusieurs"
+          },
+          "decrypt": {
+            "description": "Only the Shared key and Hexdump (encrypted message) are required to perform decryption. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "info": "Les messages illisibles par l'homme émis par RedVelvet seront toujours hexadécimaux.",
+            "subtitle": "Chiffrement de bout en bout | Décrypter"
+          },
+          "error_messages": {
+            "bad_key_exchange": "Mauvais échange de clé.",
+            "hex_key_format": "Doit être composé de 64 caractères hexadécimaux / équivalent à 32 octets / 256 bits.",
+            "key_x1_duplicated": "La clé X1 est invalide ou dupliquée.",
+            "key_x": "Clé X",
+            "is_invalid": " est invalide.",
+            "is_invalid_duplicated": " est invalide ou dupliqué.",
+            "minimum_key": "Un minimum de 2 clés est nécessaire."
+          },
+          "other": {
+            "private_key": "Clé privée",
+            "supports": "Les soutiens",
+            "copy": "Copie",
+            "copy_success": "Copie réussie dans le presse-papiers.",
+            "link": {
+              "to_single": "clé privée unique",
+              "to_multiple": "plusieurs clés privées",
+              "button": {
+                "p": "Vous cherchez un moyen de",
+                "encrypt": "Crypter",
+                "decrypt": "décrypter"
+              }
+            },
+            "button": {
+              "derive": "Dériver",
+              "add_privkey": "Ajouter une clé privée",
+              "lock": "Verrouillage",
+              "lock_and_derive": "Verrouiller et dériver",
+              "unlock": "Ouvrir"
+            },
+            "label": {
+              "private_key_input": "Votre clé privée",
+              "public_key_input": "Votre clé publique",
+              "x1_private_key": "Clé privée X1",
+              "x1_public_key": "Clé publique X1",
+              "shared_key_input": "Clé partagée",
+              "plaintext_message_text_area": "Message",
+              "ciphertext_message_text_area": "Hex (vidage)",
+              "disrupted_message": "Message interrompu",
+              "decrypted_message": "Message décrypté"
+            },
+            "placeholder": {
+              "hex_placeholder": "hexadécimal-64-caractères/32-octets/256-bits",
+              "plaintext_message_text_area": "Les messages cryptés sont recommandés '-----BEGIN PGP MESSAGE-----'"
+            },
+            "description": {
+              "plaintext_message_text_area": "Tapez ou collez votre message.",
+              "ciphertext_message_text_area": "Collez votre message crypté."
+            }
+          }
+        }
       },
       "latest": "Plus récent",
       "oldest": "Le plus ancien",
       "paper_list": [
         {
           "title": "À la recherche de la liberté au-delà du terrier du lapin : thèse",
+          "subtitle": "15 septembre 2023",
           "url": "/write/thesis",
           "date": "Sep 2023",
-          "full_date": "15 septembre 2023",
           "repo": null,
           "repo_link": null,
           "warning": "En phase de planification",
@@ -24,9 +91,9 @@
         },
         {
           "title": "Plonger dans le terrier du lapin : perspective de l'informatique",
+          "subtitle": "12 septembre 2023",
           "url": "/write/perspective-of-computer-science",
           "date": "Sep 2023",
-          "full_date": "12 septembre 2023",
           "repo": null,
           "repo_link": null,
           "warning": "Avertissement : ces notes contiennent des opinions, des expériences personnelles et des points de vue extrêmes sur l'informatique dans un contexte magistral. Non destiné à rabaisser ou offenser une quelconque partie; veuillez ne pas le digérer complètement sans autre réflexion. En appuyant sur « Lire la suite », vous êtes censé comprendre.",
@@ -38,9 +105,9 @@
         },
         {
           "title": "Roses rouges en fleurs : une introduction",
+          "subtitle": "7 août 2023",
           "url": "/write/an-introduction",
           "date": "Août 2023",
-          "full_date": "7 août 2023",
           "repo": "GitHub",
           "repo_link": "https://github.com/monikaquentin",
           "warning": null,

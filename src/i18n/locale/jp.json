@@ -3,16 +3,83 @@
     "translation": {
       "pages": {
         "write": "書く",
-        "home": "RedVelvet"
+        "home": "RedVelvet",
+        "curve25519": {
+          "single": {
+            "description": "Diffie-Hellman および AES-256-GCM (ガロア/カウンター モード) アルゴリズムによる単一楕円曲線鍵交換。 このサイトから出るデータはまったくありません。 すべてがマシン内にあり、キューに入れられたすべてのデータは処理後すぐに削除されます。",
+            "info": "RedVelvet が発行する人間が判読できないメッセージは常に 16 進ダンプになります。",
+            "subtitle": "エンドツーエンドの暗号化 | シングル"
+          },
+          "multiple": {
+            "description": "Diffie-Hellman および AES-256-GCM (ガロア/カウンター モード) アルゴリズムによる複数の楕円曲線鍵交換。 このサイトから出るデータはまったくありません。 すべてがマシン内にあり、キューに入れられたすべてのデータは処理後すぐに削除されます。",
+            "info": "RedVelvet が発行する人間が判読できないメッセージは常に 16 進ダンプになります。",
+            "subtitle": "エンドツーエンドの暗号化 | 複数"
+          },
+          "decrypt": {
+            "description": "復号化を実行するには、共有キーと Hexdump (暗号化されたメッセージ) のみが必要です。 このサイトから出るデータはまったくありません。 すべてがマシン内にあり、キューに入れられたすべてのデータは処理後すぐに削除されます。",
+            "info": "RedVelvet が発行する人間が判読できないメッセージは常に 16 進ダンプになります。",
+            "subtitle": "エンドツーエンドの暗号化 | 復号化"
+          },
+          "error_messages": {
+            "bad_key_exchange": "鍵交換不良。",
+            "hex_key_format": "64 個の 16 進文字 / 32 バイト / 256 ビットに相当する文字で構成されている必要があります。",
+            "key_x1_duplicated": "キー X1 が無効であるか、重複しています。",
+            "key_x": "キーX",
+            "is_invalid": " 無効です。",
+            "is_invalid_duplicated": " 無効か重複しています。",
+            "minimum_key": "少なくとも 2 つのキーが必要です。"
+          },
+          "other": {
+            "private_key": "秘密鍵",
+            "supports": "サポート",
+            "copy": "コピー",
+            "copy_success": "クリップボードに正常にコピーされました。",
+            "link": {
+              "to_single": "単一の秘密鍵",
+              "to_multiple": "複数の秘密鍵",
+              "button": {
+                "p": "～する方法を探しています",
+                "encrypt": "暗号化する",
+                "decrypt": "復号化する"
+              }
+            },
+            "button": {
+              "derive": "派生する",
+              "add_privkey": "秘密キーを追加する",
+              "lock": "ロック",
+              "lock_and_derive": "ロックして導出",
+              "unlock": "ロックを解除する"
+            },
+            "label": {
+              "private_key_input": "あなたの秘密鍵",
+              "public_key_input": "あなたの公開鍵",
+              "x1_private_key": "X1秘密鍵",
+              "x1_public_key": "X1公開鍵",
+              "shared_key_input": "共有キー",
+              "plaintext_message_text_area": "メッセージ",
+              "ciphertext_message_text_area": "16進数(ダンプ)",
+              "disrupted_message": "中断されたメッセージ",
+              "decrypted_message": "復号化されたメッセージ"
+            },
+            "placeholder": {
+              "hex_placeholder": "16 進数 64 文字/32 バイト/256 ビット",
+              "plaintext_message_text_area": "暗号化されたメッセージが推奨されます '-----BEGIN PGP MESSAGE-----'"
+            },
+            "description": {
+              "plaintext_message_text_area": "メッセージを入力または貼り付けます。",
+              "ciphertext_message_text_area": "暗号化されたメッセージを貼り付けます。"
+            }
+          }
+        }
       },
       "latest": "最新",
       "oldest": "最古",
       "paper_list": [
         {
           "title": "ウサギの穴を越えて自由を求めて: 論文",
+          "subtitle": "2023 年 9 月 15 日",
           "url": "/write/thesis",
           "date": "2023 年 9 月",
-          "full_date": "2023 年 9 月 15 日",
           "repo": null,
           "repo_link": null,
           "warning": "計画段階では",
@@ -24,9 +91,9 @@
         },
         {
           "title": "ウサギの穴に飛び込む: コンピューター サイエンスの視点",
+          "subtitle": "2023 年 9 月 12日",
           "url": "/write/perspective-of-computer-science",
           "date": "2023 年 9 月",
-          "full_date": "2023 年 9 月 12日",
           "repo": null,
           "repo_link": null,
           "warning": "警告: これらのメモには、講義におけるコンピューター サイエンスに関する意見、個人的な経験、極端な視点が含まれています。 当事者を貶めたり気分を害したりすることを目的としたものではありません。 何も考えずに完全に消化しないでください。 「続きを読む」を押すと理解したものとみなされます。",
@@ -38,9 +105,9 @@
         },
         {
           "title": "咲く赤いバラ: はじめに",
+          "subtitle": "2023 年 8 月 7 日",
           "url": "/write/an-introduction",
           "date": "2023 年 8 月",
-          "full_date": "2023 年 8 月 7 日",
           "repo": "GitHub",
           "repo_link": "https://github.com/monikaquentin",
           "warning": null,

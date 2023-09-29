@@ -22,8 +22,8 @@ export default defineConfig(({ mode }) => {
   //
   // eslint-disable-next-line
   const env = loadEnv(mode, process.cwd(), '')
-  const noMock = env.APP_ENV === 'development' && env.VITE_NOMOCK === 'true'
-  const prod = env.APP_ENV === 'production'
+  const noMock = env.VITE_APP_ENV === 'development' && env.VITE_NOMOCK === 'true'
+  const prod = env.VITE_APP_ENV === 'production'
 
   return {
     base: prod ? '/__vite_base__/' : '/',
@@ -41,8 +41,8 @@ export default defineConfig(({ mode }) => {
       ]
     },
     server: {
-      host: env.APP_HOST,
-      port: parseInt(env.APP_PORT),
+      host: env.VITE_APP_HOST,
+      port: parseInt(env.VITE_APP_PORT),
       proxy: noMock ? commonProxy : null
     },
     test: {

@@ -8,11 +8,8 @@ Home.propTypes = {
 }
 
 function Home({ t }) {
-  const header = {
-    title: t('pages.home')
-  }
   return (
-    <Container header={header}>
+    <Container header={{ title: t('pages.home') }}>
       <p className="paragraph mt-4">
         {t('maintenance.p1')}&nbsp;
         <a href="mailto:re@redvelvet.me">re@redvelvet.me</a>.<em className="text-gray-100">{t('maintenance.p2')}</em>

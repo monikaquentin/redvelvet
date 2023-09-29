@@ -3,16 +3,83 @@
     "translation": {
       "pages": {
         "write": "Schreiben",
-        "home": "RedVelvet"
+        "home": "RedVelvet",
+        "curve25519": {
+          "single": {
+            "description": "Einzelner Schlüsselaustausch mit elliptischer Kurve mit Diffie-Hellman- und AES-256-GCM-Algorithmus (Galois/Counter-Modus). Es gibt absolut keine Daten, die diese Website verlassen. Alles befindet sich auf Ihrem Computer, alle darauf befindlichen Daten werden nach der Verarbeitung sofort gelöscht.",
+            "info": "Von RedVelvet ausgegebene, für Menschen unlesbare Nachrichten sind immer Hexdump.",
+            "subtitle": "Ende-zu-Ende-Verschlüsselung | Einzel"
+          },
+          "multiple": {
+            "description": "Schlüsselaustausch mehrerer elliptischer Kurven mit Diffie-Hellman- und AES-256-GCM-Algorithmus (Galois/Counter-Modus). Es gibt absolut keine Daten, die diese Website verlassen. Alles befindet sich auf Ihrem Computer, alle darauf befindlichen Daten werden nach der Verarbeitung sofort gelöscht.",
+            "info": "Von RedVelvet ausgegebene, für Menschen unlesbare Nachrichten sind immer Hexdump.",
+            "subtitle": "Ende-zu-Ende-Verschlüsselung | Mehrere"
+          },
+          "decrypt": {
+            "description": "Für die Entschlüsselung sind lediglich der Shared Key und Hexdump (verschlüsselte Nachricht) erforderlich. Es gibt absolut keine Daten, die diese Website verlassen. Alles befindet sich auf Ihrem Computer, alle darauf befindlichen Daten werden nach der Verarbeitung sofort gelöscht.",
+            "info": "Von RedVelvet ausgegebene, für Menschen unlesbare Nachrichten sind immer Hexdump.",
+            "subtitle": "Ende-zu-Ende-Verschlüsselung | Entschlüsseln"
+          },
+          "error_messages": {
+            "bad_key_exchange": "Fehlerhafter Schlüsselaustausch.",
+            "hex_key_format": "Muss aus 64 Hexadezimalzeichen bestehen / entsprechend 32 Bytes / 256 Bit.",
+            "key_x1_duplicated": "Schlüssel X1 ist ungültig oder dupliziert.",
+            "key_x": "Schlüssel X",
+            "is_invalid": " ist ungültig.",
+            "is_invalid_duplicated": " ist ungültig oder dupliziert.",
+            "minimum_key": "Es werden mindestens 2 Schlüssel benötigt."
+          },
+          "other": {
+            "private_key": "Privat Schlüssel",
+            "supports": "Unterstützt",
+            "copy": "Kopieren",
+            "copy_success": "Erfolgreich in die Zwischenablage kopiert.",
+            "link": {
+              "to_single": "einzelner privater Schlüssel",
+              "to_multiple": "mehrere private Schlüssel",
+              "button": {
+                "p": "Auf der Suche nach einem Weg dazu",
+                "encrypt": "Verschlüsseln",
+                "decrypt": "entschlüsseln"
+              }
+            },
+            "button": {
+              "derive": "Ableiten",
+              "add_privkey": "Privaten Schlüssel hinzufügen",
+              "lock": "Sperren",
+              "lock_and_derive": "Sperren und ableiten",
+              "unlock": "Freischalten"
+            },
+            "label": {
+              "private_key_input": "Ihr privater Schlüssel",
+              "public_key_input": "Ihr öffentlicher Schlüssel",
+              "x1_private_key": "X1 Privat Schlüssel",
+              "x1_public_key": "X1 Öffentlicher Schlüssel",
+              "shared_key_input": "Gemeinsamer Schlüssel",
+              "plaintext_message_text_area": "Nachricht",
+              "ciphertext_message_text_area": "Hex(dump)",
+              "disrupted_message": "Gestörte Nachricht",
+              "decrypted_message": "Entschlüsselte Nachricht"
+            },
+            "placeholder": {
+              "hex_placeholder": "Hexadezimalzahl-64-Zeichen/32-Byte/256-Bit",
+              "plaintext_message_text_area": "Verschlüsselte Nachrichten werden empfohlen '-----BEGIN PGP MESSAGE-----'"
+            },
+            "description": {
+              "plaintext_message_text_area": "Geben oder fügen Sie Ihre Nachricht ein.",
+              "ciphertext_message_text_area": "Fügen Sie Ihre verschlüsselte Nachricht ein."
+            }
+          }
+        }
       },
       "latest": "Neueste",
       "oldest": "Älteste",
       "paper_list": [
         {
           "title": "Auf der Suche nach Freiheit jenseits des Kaninchenbaus: These",
+          "subtitle": "15. September 2023",
           "url": "/write/thesis",
           "date": "Sep 2023",
-          "full_date": "15. September 2023",
           "repo": null,
           "repo_link": null,
           "warning": "In der Planungsphase",
@@ -24,9 +91,9 @@
         },
         {
           "title": "Eintauchen in den Kaninchenbau: Perspektive der Informatik",
+          "subtitle": "12. September 2023",
           "url": "/write/perspective-of-computer-science",
           "date": "Sep 2023",
-          "full_date": "12. September 2023",
           "repo": null,
           "repo_link": null,
           "warning": "Achtung: Diese Notizen enthalten Meinungen, persönliche Erfahrungen und extreme Standpunkte zur Informatik im Vorlesungskontext. Es ist nicht dazu gedacht, eine Partei zu erniedrigen oder zu beleidigen; bitte verdauen Sie es nicht ohne weitere Überlegung. Wenn Sie auf „Weiterlesen“ klicken, erklären Sie sich damit einverstanden.",
@@ -38,9 +105,9 @@
         },
         {
           "title": "Blühende rote Rosen: Eine Einführung",
+          "subtitle": "7. August 2023",
           "url": "/write/an-introduction",
           "date": "Aug 2023",
-          "full_date": "7. August 2023",
           "repo": "GitHub",
           "repo_link": "https://github.com/monikaquentin",
           "warning": null,

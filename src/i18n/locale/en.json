@@ -3,16 +3,83 @@
     "translation": {
       "pages": {
         "write": "Write",
-        "home": "RedVelvet"
+        "home": "RedVelvet",
+        "curve25519": {
+          "single": {
+            "description": "Single elliptic curve key exchange with Diffie-Hellman and AES-256-GCM (Galois/Counter Mode) algorithm. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "info": "Human unreadable messages issued by RedVelvet will always be hexdump.",
+            "subtitle": "End-to-end encryption | Single"
+          },
+          "multiple": {
+            "description": "Multiple elliptic curve key exchange with Diffie-Hellman and AES-256-GCM (Galois/Counter Mode) algorithm. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "info": "Human unreadable messages issued by RedVelvet will always be hexdump.",
+            "subtitle": "End-to-end encryption | Multiple"
+          },
+          "decrypt": {
+            "description": "Only the Shared key and Hexdump (encrypted message) are required to perform decryption. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "info": "Human unreadable messages issued by RedVelvet will always be hexdump.",
+            "subtitle": "End-to-end encryption | Decrypt"
+          },
+          "error_messages": {
+            "bad_key_exchange": "Bad key exchange.",
+            "hex_key_format": "Must consist of 64 hex characters / equivalent of 32 bytes / 256 bit.",
+            "key_x1_duplicated": "Key X1 is invalid or duplicated.",
+            "key_x": "Key X",
+            "is_invalid": " is invalid.",
+            "is_invalid_duplicated": " is invalid or duplicated.",
+            "minimum_key": "A minimum of 2 keys is needed."
+          },
+          "other": {
+            "private_key": "private key",
+            "supports": "Supports",
+            "copy": "Copy",
+            "copy_success": "Successfully copied to the clipboard.",
+            "link": {
+              "to_single": "single private key",
+              "to_multiple": "multiple private key",
+              "button": {
+                "p": "Looking for a way to",
+                "encrypt": "encrypt",
+                "decrypt": "decrypt"
+              }
+            },
+            "button": {
+              "derive": "Derive",
+              "add_privkey": "Add private key",
+              "lock": "Lock",
+              "lock_and_derive": "Lock and derive",
+              "unlock": "Unlock"
+            },
+            "label": {
+              "private_key_input": "Your private key",
+              "public_key_input": "Your public key",
+              "x1_private_key": "X1 private key",
+              "x1_public_key": "X1 public key",
+              "shared_key_input": "Shared key",
+              "plaintext_message_text_area": "Message",
+              "ciphertext_message_text_area": "Hex(dump)",
+              "disrupted_message": "Disrupted message",
+              "decrypted_message": "Decrypted message"
+            },
+            "placeholder": {
+              "hex_placeholder": "hex-64-characters/32-byte/256-bit",
+              "plaintext_message_text_area": "Encrypted messages are recommended '-----BEGIN PGP MESSAGE-----'"
+            },
+            "description": {
+              "plaintext_message_text_area": "Type or paste your message.",
+              "ciphertext_message_text_area": "Paste your encrypted message."
+            }
+          }
+        }
       },
       "latest": "Latest",
       "oldest": "Oldest",
       "paper_list": [
         {
           "title": "Seeking Freedom Beyond the Rabbit Hole: Thesis",
+          "subtitle": "September 15, 2023",
           "url": "/write/thesis",
           "date": "Sep 2023",
-          "full_date": "September 15, 2023",
           "repo": null,
           "repo_link": null,
           "warning": "In the planning stage",
@@ -24,9 +91,9 @@
         },
         {
           "title": "Diving into the Rabbit Hole: Perspective of Computer Science",
+          "subtitle": "September 12, 2023",
           "url": "/write/perspective-of-computer-science",
           "date": "Sep 2023",
-          "full_date": "September 12, 2023",
           "repo": null,
           "repo_link": null,
           "warning": "Warning: These notes contain opinions, personal experiences, and extreme points of view about computer science in a lecture context. Not intended to demean or offend any party; please do not digest it completely without further consideration. By pressing \"Read more\" you are deemed to understand.",
@@ -38,9 +105,9 @@
         },
         {
           "title": "Blooming Red Roses: An Introduction",
+          "subtitle": "August 7, 2023",
           "url": "/write/an-introduction",
           "date": "Aug 2023",
-          "full_date": "August 7, 2023",
           "repo": "GitHub",
           "repo_link": "https://github.com/monikaquentin",
           "warning": null,

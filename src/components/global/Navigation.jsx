@@ -9,7 +9,7 @@ function Navigation() {
   const pathname = useLocation().pathname
 
   return (
-    <nav className="nav">
+    <nav className="nav-wrapper">
       <Link className={`item ${pathname === '/' ? 'item--active' : ''}`} title="Home" to="/">
         <HomeIcon />
       </Link>

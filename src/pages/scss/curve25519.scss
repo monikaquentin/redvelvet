@@ -1,0 +1,47 @@
+section .page-curve25519-wrapper hr {
+  @apply mt-4;
+}
+section .page-curve25519-wrapper .encrypt-result-wrapper {
+  @apply mt-4;
+}
+section .page-curve25519-wrapper .encrypt-result-wrapper label {
+  @apply block
+  text-sm
+  font-medium
+  leading-6
+  text-tertiary
+  mt-4;
+}
+section .page-curve25519-wrapper .encrypt-result-wrapper pre {
+  @apply text-tertiary
+  ss:text-[12.56px]
+  ss:leading-[15px]
+  text-[9px]
+  leading-[11px]
+  mt-2;
+}
+section .page-curve25519-wrapper .encrypt-result-wrapper .info-paragraph {
+  @apply mt-4;
+}
+section .page-curve25519-wrapper .encrypt-result-wrapper .copy-wrapper {
+  @apply flex mt-1;
+}
+section .page-curve25519-wrapper .encrypt-result-wrapper .copy-wrapper .content {
+  @apply flex-grow;
+}
+section .page-curve25519-wrapper .copy-wrapper p {
+  @apply paragraph
+  mt-3
+  mb-1;
+}
+section .page-curve25519-wrapper .sub-footer {
+  @apply flex items-end mt-4 ml-auto;
+}
+
+section .page-curve25519-wrapper .sub-footer label {
+  @apply text-sm font-medium leading-6 text-tertiary mr-auto mb-0;
+}
+
+section .page-curve25519-wrapper .sub-footer img {
+  @apply ml-auto w-[125px];
+}

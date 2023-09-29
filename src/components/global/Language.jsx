@@ -17,7 +17,7 @@ export default function Language() {
   }
 
   return (
-    <select onChange={handleChange} value={locale} className="a1d1c-language">
+    <select onChange={handleChange} value={locale} className="language-select">
       <option value="en">EN</option>
       <option value="de">DE</option>
       <option value="fr">FR</option>

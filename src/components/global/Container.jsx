@@ -4,18 +4,21 @@ import Header from '@/components/global/Header'
 import Footer from '@/components/global/Footer'
 
 Container.propTypes = {
-  children: PropTypes.object,
+  sectionClass: PropTypes.string,
+  children: PropTypes.any,
   header: PropTypes.object
 }
 
-function Container({ children, header }) {
+function Container({ sectionClass, children, header }) {
   return (
     <div className="container">
-      <div className="mt-64">
-        <Header title={header.title} date={header?.date} />
-        {children}
-        <Footer />
-      </div>
+      <section className={sectionClass}>
+        <div className="content-wrapper">
+          <Header title={header.title} subtitle={header?.subtitle} />
+          {children}
+          <Footer />
+        </div>
+      </section>
     </div>
   )
 }

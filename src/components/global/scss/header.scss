@@ -1,0 +1,39 @@
+section .header-wrapper img {
+  @apply absolute
+  top-[-30px]
+  right-0
+  mt-4
+  mr-4
+  max-w-[317px];
+}
+section .header-wrapper h1 {
+  @apply tracking-tight
+  text-3xl
+  font-bold
+  mt-5;
+}
+section .header-wrapper h3 {
+  @apply tracking-tight
+  text-lg
+  leading-none
+  mt-1;
+}
+section .header-wrapper span {
+  @apply text-sm
+  text-gray-100;
+}
+section .header-wrapper h3 a {
+  color: var(--gray-100) !important;
+}
+section .header-wrapper h3 a:hover {
+  color: var(--secondary-color) !important;
+}
+
+@media only screen and (max-width: 620px) {
+  section .header-wrapper img {
+    @apply top-24
+    max-w-[200px]
+    mr-7
+    mb-[-50px];
+  }
+}

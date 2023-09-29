@@ -3,16 +3,83 @@
     "translation": {
       "pages": {
         "write": "Писать",
-        "home": "RedVelvet"
+        "home": "RedVelvet",
+        "curve25519": {
+          "single": {
+            "description": "Обмен ключами по одной эллиптической кривой с использованием алгоритма Диффи-Хеллмана и AES-256-GCM (режим Галуа/счетчика). Абсолютно никакие данные не покидают этот сайт. Все находится на вашей машине, все данные в очереди немедленно удаляются после обработки.",
+            "info": "Нечитаемые человеком сообщения, выдаваемые RedVelvet, всегда будут шестнадцатеричными.",
+            "subtitle": "Сквозное шифрование | Одинокий"
+          },
+          "multiple": {
+            "description": "Multiple elliptic curve key exchange with Diffie-Hellman and AES-256-GCM (Galois/Counter Mode) algorithm. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "info": "Нечитаемые человеком сообщения, выдаваемые RedVelvet, всегда будут шестнадцатеричными.",
+            "subtitle": "Сквозное шифрование | Несколько"
+          },
+          "decrypt": {
+            "description": "Only the Shared key and Hexdump (encrypted message) are required to perform decryption. There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+            "info": "Нечитаемые человеком сообщения, выдаваемые RedVelvet, всегда будут шестнадцатеричными.",
+            "subtitle": "Сквозное шифрование | Расшифровать"
+          },
+          "error_messages": {
+            "bad_key_exchange": "Плохой обмен ключами.",
+            "hex_key_format": "Должен состоять из 64 шестнадцатеричных символов / эквивалент 32 байтов / 256 бит.",
+            "key_x1_duplicated": "Ключ X1 недействителен или дублируется.",
+            "key_x": "Ключ Х",
+            "is_invalid": " является недействительным.",
+            "is_invalid_duplicated": " недействителен или дублируется.",
+            "minimum_key": "Необходимо минимум 2 ключа."
+          },
+          "other": {
+            "private_key": "закрытый ключ",
+            "supports": "Поддерживает",
+            "copy": "Копировать",
+            "copy_success": "Успешно скопировано в буфер обмена.",
+            "link": {
+              "to_single": "один закрытый ключ",
+              "to_multiple": "несколько закрытых ключей",
+              "button": {
+                "p": "Ищете способ",
+                "encrypt": "шифровать",
+                "decrypt": "расшифровать"
+              }
+            },
+            "button": {
+              "derive": "Вывести",
+              "add_privkey": "Добавить закрытый ключ",
+              "lock": "Замок",
+              "lock_and_derive": "Блокировка и вывод",
+              "unlock": "Разблокировать"
+            },
+            "label": {
+              "private_key_input": "Ваш личный ключ",
+              "public_key_input": "Ваш открытый ключ",
+              "x1_private_key": "Закрытый ключ X1",
+              "x1_public_key": "Открытый ключ X1",
+              "shared_key_input": "Общий ключ",
+              "plaintext_message_text_area": "Сообщение",
+              "ciphertext_message_text_area": "Шестнадцатеричный (свалка)",
+              "disrupted_message": "Прерванное сообщение",
+              "decrypted_message": "Расшифрованное сообщение"
+            },
+            "placeholder": {
+              "hex_placeholder": "шестнадцатеричный-64-символа/32-байта/256-бит",
+              "plaintext_message_text_area": "Рекомендуется использовать зашифрованные сообщения. '-----BEGIN PGP MESSAGE-----'"
+            },
+            "description": {
+              "plaintext_message_text_area": "Введите или вставьте свое сообщение.",
+              "ciphertext_message_text_area": "Вставьте зашифрованное сообщение."
+            }
+          }
+        }
       },
       "latest": "Последние",
       "oldest": "Старейшие",
       "paper_list": [
         {
           "title": "В поисках свободы за пределами кроличьей норы: диссертация",
+          "subtitle": "15 сентября 2023 года",
           "url": "/write/thesis",
           "date": "Сентябрь 2023",
-          "full_date": "15 сентября 2023 года",
           "repo": null,
           "repo_link": null,
           "warning": "На этапе планирования",
@@ -24,9 +91,9 @@
         },
         {
           "title": "Ныряние в кроличью нору: взгляд на информатику",
+          "subtitle": "12 сентября 2023 года",
           "url": "/write/perspective-of-computer-science",
           "date": "Сентябрь 2023",
-          "full_date": "12 сентября 2023 года",
           "repo": null,
           "repo_link": null,
           "warning": "Предупреждение: эти заметки содержат мнения, личный опыт и крайние точки зрения на информатику в контексте лекций. Не предназначено для унижения или оскорбления какой-либо стороны; пожалуйста, не переваривайте это полностью без дальнейшего рассмотрения. Нажимая «Читать далее», вы считаете, что поняли.",
@@ -38,9 +105,9 @@
         },
         {
           "title": "Цветущие красные розы: введение",
+          "subtitle": "7 августа 2023 года",
           "url": "/write/an-introduction",
           "date": "Авг 2023",
-          "full_date": "7 августа 2023 года",
           "repo": "GitHub",
           "repo_link": "https://github.com/monikaquentin",
           "warning": null,

@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 
 import Container from '@/components/global/Container'
+
 import { useState } from 'react'
 
 Paper.propTypes = {
@@ -8,20 +9,16 @@ Paper.propTypes = {
 }
 
 function Paper({ data }) {
-  const header = {
-    title: data.title,
-    date: data.full_date
-  }
   const [read, setRead] = useState(false)
   return (
-    <Container header={header}>
+    <Container header={{ title: data.title, subtitle: data.subtitle }}>
       <hr className="mt-4" />
       {data.warning ? (
         <div>
           <p className="paragraph text-justify !font-semibold border border-secondary border-r-8 p-2 mt-4">
             {data.warning}
           </p>
-          <p className="paragraph text-justify !text-secondary mt-4">
+          <div className="paragraph text-justify !text-secondary mt-4">
             {!read ? (
               <span className="cursor-pointer" onClick={() => setRead(!read)}>
                 {data.read_more}...
@@ -38,20 +35,20 @@ function Paper({ data }) {
                 <p className="paragraph text-justify mt-4">{data.resolution_content}</p>
               </div>
             )}
-          </p>
+          </div>
         </div>
       ) : (
-        <p className="paragraph text-justify mt-4">
+        <div className="paragraph text-justify mt-4">
           {data.content}
-          {data.repo_link ? (
+          {data.repo_link && (
             <span>
               &nbsp;
               <a href={data.repo_link} target="_blank" rel="noopener noreferrer nofollow">
                 {data.repo}
               </a>
             </span>
-          ) : null}
-        </p>
+          )}
+        </div>
       )}
     </Container>
   )
