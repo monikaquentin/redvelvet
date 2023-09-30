@@ -6,7 +6,7 @@ import SubFooter from '../../components/curve25519/SubFooter'
 
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import { reverseHexDump } from '@/functions/HexDump'
+import { reverseHexDump } from '@/functions/Hexadecimal'
 
 import PropTypes from 'prop-types'
 

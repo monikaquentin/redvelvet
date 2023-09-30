@@ -40,4 +40,17 @@ const reverseHexDump = (dump) => {
   }
 }
 
-export { hexDump, reverseHexDump }
+const hexToBytes = (hex) => {
+  const bytes = []
+  for (let i = 0; i < hex.length; i += 2) {
+    bytes.push(parseInt(hex.substr(i, 2), 16))
+  }
+  return bytes
+}
+
+const hexToUint8Array = (hex) => {
+  const byteArray = hexToBytes(hex)
+  return new Uint8Array(byteArray)
+}
+
+export { hexDump, reverseHexDump, hexToBytes, hexToUint8Array }

@@ -9,7 +9,7 @@ import SubFooter from '../../components/curve25519/SubFooter'
 import { Link } from 'react-router-dom'
 import { useState, useEffect, useMemo } from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
-import { hexDump } from '@/functions/HexDump'
+import { hexDump } from '@/functions/Hexadecimal'
 
 import PropTypes from 'prop-types'
 
