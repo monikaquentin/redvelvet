@@ -16,7 +16,7 @@ function PublicKeys() {
       </h4>
       <pre className="pre">{curve25519}</pre>
 
-      <h4 className="text-sm font-bold mb-2 mt-2">ECC_SECG_P256K1 [S]-secondary</h4>
+      <h4 className="text-sm font-bold mb-2 mt-2">ECC_SECG_P256K1 [SE]-secondary</h4>
       <pre className="pre">{secp256k1}</pre>
       <pre className="pre">{descriptions}</pre>
     </div>
