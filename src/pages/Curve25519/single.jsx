@@ -9,7 +9,7 @@ import SubFooter from '../../components/curve25519/SubFooter'
 import { Link } from 'react-router-dom'
 import { useState, useEffect, useMemo } from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
-import { hexDump } from '@/functions/Hexadecimal'
+import { hexDump, hexToUint8Array } from '@/functions/Hexadecimal'
 
 import PropTypes from 'prop-types'
 
@@ -45,7 +45,7 @@ function Curve25519Single({ t }) {
 
     if (keyLockedValidation(next))
       try {
-        return userSecret.derive(curve25519.keyFromPublic(next.x1PublicKey).getPublic()).toString(16)
+        return userSecret.derive(curve25519.keyFromPublic(hexToUint8Array(next.x1PublicKey)).getPublic()).toString(16)
       } catch (error) {
         return false
       }
