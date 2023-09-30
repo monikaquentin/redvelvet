@@ -20,7 +20,7 @@ Curve25519Multiple.propTypes = {
 function Curve25519Multiple({ t }) {
   const curve25519 = new EC('curve25519')
   const regexKey = /^(?:[0-9a-fA-F]{62}|[0-9a-fA-F]{64})$/
-  const defaultPrivKey = curve25519.keyFromPrivate('00c0ffeee465ace1f57976c38771cd5252975d3645422e2340a96b105def8ba4')
+  const defaultPrivKey = curve25519.genKeyPair()
   const maxAdditionalKeys = 10
   const initialState = {
     errorMessage: '',
@@ -168,7 +168,7 @@ function Curve25519Multiple({ t }) {
     htmlFor: 'plaintext_message_text_area',
     name: 'plaintext_message_text_area',
     rows: 3,
-    placeholder: t('pages.curve25519.other.placeholder.hex_placeholder'),
+    placeholder: t('pages.curve25519.other.placeholder.plaintext_message_text_area'),
     disabled: false,
     value: state.plainTextMessage,
     onChange: (event) => {

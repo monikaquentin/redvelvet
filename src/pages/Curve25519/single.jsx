@@ -135,7 +135,7 @@ function Curve25519Single({ t }) {
     htmlFor: 'plaintext_message_text_area',
     name: 'plaintext_message_text_area',
     rows: 3,
-    placeholder: t('pages.curve25519.other.placeholder.hex_placeholder'),
+    placeholder: t('pages.curve25519.other.placeholder.plaintext_message_text_area'),
     disabled: false,
     value: state.plainTextMessage,
     onChange: (event) => {
