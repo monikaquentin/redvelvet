@@ -1,0 +1,10 @@
+section .footer-wrapper hr {
+  @apply border-t
+  mt-4
+  max-w-[170px];
+}
+section .footer-wrapper h2 {
+  @apply text-sm
+  text-gray-100
+  mt-4;
+}

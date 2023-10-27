@@ -3,16 +3,83 @@
     "translation": {
       "pages": {
         "write": "Menulis",
-        "home": "RedVelvet"
+        "home": "RedVelvet",
+        "curve25519": {
+          "single": {
+            "description": "Pertukaran kunci kurva elips tunggal dengan algoritma Diffie-Hellman dan AES-256-GCM (Galois/Counter Mode). Sama sekali tidak ada data yang keluar dari situs ini. Semuanya ada di mesin Anda, semua data yang antri di dalamnya segera dihapus setelah diproses.",
+            "info": "Pesan-pesan tak terbaca yang dikeluarkan oleh RedVelvet akan selalu berupa hexdump.",
+            "subtitle": "End-to-end encryption | Tunggal"
+          },
+          "multiple": {
+            "description": "Pertukaran kunci kurva elips ganda dengan algoritma Diffie-Hellman dan AES-256-GCM (Galois/Counter Mode). Sama sekali tidak ada data yang keluar dari situs ini. Semuanya ada di mesin Anda, semua data yang antri di dalamnya segera dihapus setelah diproses.",
+            "info": "Pesan-pesan tak terbaca yang dikeluarkan oleh RedVelvet akan selalu berupa hexdump.",
+            "subtitle": "End-to-end encryption | Ganda"
+          },
+          "decrypt": {
+            "description": "Hanya kunci Bersama dan Hexdump (pesan terenkripsi) yang diperlukan untuk melakukan dekripsi. Sama sekali tidak ada data yang keluar dari situs ini. Semuanya ada di mesin Anda, semua data yang antri di dalamnya segera dihapus setelah diproses.",
+            "info": "Pesan-pesan tak terbaca yang dikeluarkan oleh RedVelvet akan selalu berupa hexdump.",
+            "subtitle": "End-to-end encryption | Dekripsi"
+          },
+          "error_messages": {
+            "bad_key_exchange": "Pertukaran kunci yang buruk.",
+            "hex_key_format": "Harus terdiri dari 64 karakter hex/setara dengan 32 byte/256 bit.",
+            "key_x1_duplicated": "Kunci X1 tidak valid atau terduplikasi.",
+            "key_x": "Kunci X",
+            "is_invalid": " tidak valid.",
+            "is_invalid_duplicated": " tidak valid atau terduplikasi.",
+            "minimum_key": "Diperlukan minimal 2 kunci."
+          },
+          "other": {
+            "private_key": "kunci pribadi",
+            "supports": "Mendukung",
+            "copy": "Salin",
+            "copy_success": "Berhasil disalin ke clipboard.",
+            "link": {
+              "to_single": "kunci pribadi tunggal",
+              "to_multiple": "kunci pribadi ganda",
+              "button": {
+                "p": "Mencari cara untuk",
+                "encrypt": "enkripsi",
+                "decrypt": "dekripsi"
+              }
+            },
+            "button": {
+              "derive": "Memperoleh",
+              "add_privkey": "Tambah kunci pribadi",
+              "lock": "Kunci",
+              "lock_and_derive": "Kunci dan peroleh",
+              "unlock": "Membuka kunci"
+            },
+            "label": {
+              "private_key_input": "Kunci pribadi anda",
+              "public_key_input": "Kunci publik anda",
+              "x1_private_key": "Kunci pribadi X1",
+              "x1_public_key": "Kunci publik X1",
+              "shared_key_input": "Kunci bersama",
+              "plaintext_message_text_area": "Pesan",
+              "ciphertext_message_text_area": "Hex(dump)",
+              "disrupted_message": "Pesan terganggu",
+              "decrypted_message": "Pesan terdekripsi"
+            },
+            "placeholder": {
+              "hex_placeholder": "hex-64-karakter/32-byte/256-bit",
+              "plaintext_message_text_area": "Pesan terenkripsi direkomendasikan '-----BEGIN PGP MESSAGE-----'"
+            },
+            "description": {
+              "plaintext_message_text_area": "Ketik atau tempel pesan Anda.",
+              "ciphertext_message_text_area": "Tempelkan pesan terenkripsi Anda."
+            }
+          }
+        }
       },
       "latest": "Terbaru",
       "oldest": "Terlama",
       "paper_list": [
         {
           "title": "Mencari Kebebasan Melampaui Lubang Kelinci: Tugas Akhir",
+          "subtitle": "September 15, 2023",
           "url": "/write/thesis",
           "date": "Sep 2023",
-          "full_date": "September 15, 2023",
           "repo": null,
           "repo_link": null,
           "warning": "Dalam tahap perencanaan",
@@ -24,9 +91,9 @@
         },
         {
           "title": "Menyelami Lubang Kelinci: Perspektif Ilmu Komputer",
+          "subtitle": "12 September 2023",
           "url": "/write/perspective-of-computer-science",
           "date": "Sep 2023",
-          "full_date": "12 September 2023",
           "repo": null,
           "repo_link": null,
           "warning": "Peringatan: Catatan ini berisi opini, pengalaman pribadi, serta sudut pandang yang ekstrem tentang ilmu komputer dalam konteks perkuliahan. Tidak bermaksud untuk merendahkan atau menyinggung pihak mana pun; harap jangan mencernanya secara mentah-mentah tanpa pertimbangan lebih lanjut. Dengan menekan \"Baca selengkapnya\" anda telah dianggap paham.",
@@ -38,9 +105,9 @@
         },
         {
           "title": "Bunga Mawar Merah yang Mekar: Pengantar",
+          "subtitle": "7 Agustus 2023",
           "url": "/write/an-introduction",
           "date": "Agu 2023",
-          "full_date": "7 Agustus 2023",
           "repo": "GitHub",
           "repo_link": "https://github.com/monikaquentin",
           "warning": null,

@@ -12,30 +12,21 @@ Write.propTypes = {
 
 function Write({ t, papers }) {
   const [isLatestFirst, setIsLatestFirst] = useState(false)
-  const header = {
-    title: t('pages.write')
-  }
-  const handleReverse = () => {
-    setIsLatestFirst(!isLatestFirst)
-  }
+  const handleReverse = () => setIsLatestFirst(!isLatestFirst)
   const displayedPapers = isLatestFirst ? papers.slice().reverse() : papers
   return (
-    <Container header={header}>
-      <div className="writinglist">
-        <div className="writinglist-button-wrapper">
-          <button onClick={handleReverse} className="writinglist-sort-button">
-            {isLatestFirst ? t('oldest') : t('latest')}
-          </button>
-          <hr />
+    <Container header={{ title: t('pages.write') }}>
+      <div className="writinglist-wrapper">
+        <div className="button-wrapper">
+          <button onClick={handleReverse}>{isLatestFirst ? t('oldest') : t('latest')}</button>
         </div>
-        <div className="writinglist-wrapper">
-          {displayedPapers.map((paper, index) => (
-            <Link key={index} className="writinglist-item" to={paper.url}>
-              <h2 className="writinglist-item-title">{paper.title}</h2>
-              <h2 className="writinglist-item-date">{paper.date}</h2>
-            </Link>
-          ))}
-        </div>
+        <hr />
+        {displayedPapers.map((paper, index) => (
+          <Link key={index} to={paper.url}>
+            <h2 className="title">{paper.title}</h2>
+            <h2 className="date">{paper.date}</h2>
+          </Link>
+        ))}
       </div>
     </Container>
   )

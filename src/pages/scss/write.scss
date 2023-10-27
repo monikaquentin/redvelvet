@@ -1,0 +1,65 @@
+section .writinglist-wrapper {
+  @apply mt-4
+  mb-16;
+}
+section .writinglist-wrapper .button-wrapper {
+  @apply text-end
+  mr-7
+  -mt-[43px];
+}
+section .writinglist-wrapper .button-wrapper button {
+  @apply inline-block
+  rounded
+  text-secondary
+  uppercase
+  mb-2
+  px-1.5
+  pb-[4px]
+  pt-[4px]
+  text-sm
+  font-thin
+  leading-normal
+  transition
+  duration-150
+  ease-in-out
+  focus:outline-none
+  focus:ring-0;
+}
+section .writinglist-wrapper a {
+  @apply text-sm;
+  display: block;
+  cursor: pointer;
+  padding: 0.75rem 2rem;
+  margin-left: -2rem;
+  transition: background-color 0.2s;
+  margin-bottom: 0.5rem;
+  border-radius: 7px;
+}
+section .writinglist-wrapper a .title {
+  flex-grow: 1;
+  line-height: 1.5;
+  letter-spacing: -0.025rem;
+}
+section .writinglist-wrapper a .date {
+  color: var(--gray-100) !important;
+  flex-shrink: 0;
+}
+
+@media (min-width: 600px) {
+  section .writinglist-wrapper a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.25rem;
+  }
+  section .writinglist-wrapper a .title {
+    line-height: 1.25;
+    margin-right: 1rem;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  section .writinglist-wrapper a:hover {
+    background-color: var(--gray-color);
+  }
+}

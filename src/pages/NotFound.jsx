@@ -3,11 +3,8 @@ import Container from '@/components/global/Container'
 import { Link } from 'react-router-dom'
 
 function NotFound() {
-  const header = {
-    title: 'RedVelvet'
-  }
   return (
-    <Container header={header}>
+    <Container header={{ title: 'RedVelvet' }}>
       <main className="grid min-h-full place-items-center bg-white-color px-6 py-24 sm:py-32 lg:px-8">
         <div className="text-center">
           <p className="text-base font-semibold">404</p>
