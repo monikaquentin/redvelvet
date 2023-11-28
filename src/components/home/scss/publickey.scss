@@ -1,5 +1,8 @@
 section .page-home .public-keys h4 {
-  @apply text-sm font-bold mb-2 mt-2;
+  @apply text-sm
+  font-bold
+  mb-2
+  mt-2;
 }
 section .page-home .public-keys pre {
   @apply pre;

@@ -1,11 +1,13 @@
 @import url('@/components/home/scss/publickey.scss');
 
 section .page-home p {
-  @apply paragraph mt-4;
+  @apply paragraph
+  mt-4;
 }
 section .page-home p em {
   @apply text-gray-100;
 }
 section .page-home hr {
-  @apply border-t mt-4;
+  @apply border-t
+  mt-4;
 }

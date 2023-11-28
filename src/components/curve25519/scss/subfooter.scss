@@ -1,10 +1,18 @@
 section .page-curve25519-wrapper .sub-footer {
-  @apply flex items-end mt-4 ml-auto;
+  @apply flex
+  items-end
+  mt-4
+  ml-auto;
 }
 section .page-curve25519-wrapper .sub-footer label {
-  @apply text-sm font-medium leading-6 text-tertiary mr-auto mb-0;
+  @apply text-sm
+  font-medium
+  leading-6
+  text-tertiary
+  mr-auto mb-0;
   @apply mt-0 leading-5 #{!important};
 }
 section .page-curve25519-wrapper .sub-footer img {
-  @apply ml-auto w-[125px];
+  @apply ml-auto
+  w-[125px];
 }
