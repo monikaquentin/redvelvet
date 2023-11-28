@@ -31,8 +31,12 @@
 @import url('@/components/global/scss/language.scss');
 @import url('@/components/global/scss/header.scss');
 @import url('@/components/global/scss/footer.scss');
+
+@import url('@/pages/scss/buymeacoffee.scss');
 @import url('@/pages/scss/curve25519.scss');
+@import url('@/pages/scss/notfound.scss');
 @import url('@/pages/scss/write.scss');
+@import url('@/pages/scss/home.scss');
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
@@ -72,12 +76,12 @@
   display: none;
 }
 ::-moz-selection {
-  color: var(--secondary-color);
-  background: transparent;
+  color: var(--dim-white-color);
+  background: var(--secondary-color);
 }
 ::selection {
-  color: var(--secondary-color);
-  background: transparent;
+  color: var(--dim-white-color);
+  background: var(--secondary-color);
 }
 * {
   margin: 0;

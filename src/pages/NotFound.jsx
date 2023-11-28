@@ -1,26 +1,35 @@
+import PropTypes from 'prop-types'
+
 import Container from '@/components/global/Container'
 
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
-function NotFound() {
+const NotFound = ({ t }) => {
+  const navigate = useNavigate()
+  const handleBack = () => {
+    // 💡 Verify if previous page exists before using router.back
+    window.history.length > 1 ? navigate(-1) : navigate('/')
+  }
   return (
     <Container header={{ title: 'RedVelvet' }}>
-      <main className="grid min-h-full place-items-center bg-white-color px-6 py-24 sm:py-32 lg:px-8">
-        <div className="text-center">
-          <p className="text-base font-semibold">404</p>
-          <h1 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">Not Found</h1>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Link to="/" className="text-sm">
-              Go back home
-            </Link>
-            <a href="mailto:re@redvelvet.me" className="text-sm">
-              Contact support <span aria-hidden="true">&rarr;</span>
+      <main className="page-not-found">
+        <div className="wrapper">
+          <p>404</p>
+          <h1>{t('pages.notfound.title')}</h1>
+          <div className="link-items">
+            <a onClick={handleBack}>{t('pages.notfound.links.l1')}</a>
+            <a href="mailto:re@redvelvet.me">
+              {t('pages.notfound.links.l2')} <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </div>
       </main>
     </Container>
   )
+}
+
+NotFound.propTypes = {
+  t: PropTypes.func
 }
 
 export default NotFound

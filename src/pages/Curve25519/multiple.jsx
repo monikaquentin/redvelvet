@@ -1,26 +1,21 @@
+import PropTypes from 'prop-types'
+
 import { ec as EC } from 'elliptic'
 
 import Aes256GCM from '@/functions/AES256'
 import Container from '@/components/global/Container'
 import Input from '@/components/global/Input'
 import TextArea from '@/components/global/TextArea'
-import SubFooter from '../../components/curve25519/SubFooter'
+import SubFooter from '@/components/curve25519/SubFooter'
 
 import { Link } from 'react-router-dom'
 import { useState, useEffect, useMemo } from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import { hexDump } from '@/functions/Hexadecimal'
 
-import PropTypes from 'prop-types'
-
-Curve25519Multiple.propTypes = {
-  t: PropTypes.func
-}
-
-function Curve25519Multiple({ t }) {
+const Curve25519Multiple = ({ t }) => {
   const curve25519 = new EC('curve25519')
   const regexKey = /^(?:[0-9a-fA-F]{62}|[0-9a-fA-F]{64})$/
-  const defaultPrivKey = curve25519.genKeyPair()
   const maxAdditionalKeys = 10
   const initialState = {
     errorMessage: '',
@@ -90,7 +85,7 @@ function Curve25519Multiple({ t }) {
 
     if (next.privKeys.length === 0) {
       next.errorMessage = ''
-      next.privKeys = [...next.privKeys, next.privateKey, defaultPrivKey.getPrivate('hex')]
+      next.privKeys = [...next.privKeys, next.privateKey, '']
       next.keyDisable = !next.keyDisable
     }
     setState(next)
@@ -287,6 +282,10 @@ function Curve25519Multiple({ t }) {
       </div>
     </Container>
   )
+}
+
+Curve25519Multiple.propTypes = {
+  t: PropTypes.func
 }
 
 export default Curve25519Multiple

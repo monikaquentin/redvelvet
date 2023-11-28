@@ -3,12 +3,7 @@ import PropTypes from 'prop-types'
 import RedRose from '@/assets/png/redrose.png'
 import Navigation from '@/components/global/Navigation'
 
-Header.propTypes = {
-  title: PropTypes.string,
-  subtitle: PropTypes.string
-}
-
-function Header({ title, subtitle }) {
+const Header = ({ title, subtitle }) => {
   return (
     <div className="header-wrapper">
       <img src={RedRose} alt="RedVelvet" />
@@ -25,6 +20,11 @@ function Header({ title, subtitle }) {
       </h3>
     </div>
   )
+}
+
+Header.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string
 }
 
 export default Header

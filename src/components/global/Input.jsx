@@ -1,10 +1,6 @@
 import PropTypes from 'prop-types'
 
-Input.propTypes = {
-  attr: PropTypes.object
-}
-
-function Input({ attr }) {
+const Input = ({ attr }) => {
   return (
     <div className={`default-input ${!attr.disabled && '!ring-secondary'}`}>
       <span>{attr.label}: </span>
@@ -20,6 +16,10 @@ function Input({ attr }) {
       />
     </div>
   )
+}
+
+Input.propTypes = {
+  attr: PropTypes.object
 }
 
 export default Input

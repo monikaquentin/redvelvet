@@ -1,9 +1,9 @@
 import redvelvet_curve25519_public_key from '@/assets/png/redvelvet-curve25519-public-key.png'
 
-function SubFooter() {
+const SubFooter = () => {
   return (
     <div className="sub-footer">
-      <label className="!mt-0 !leading-5">
+      <label>
         <a href="https://www.desmos.com/calculator/xxbjwxjmtr" target="_blank" rel="noopener noreferrer nofollow">
           y&#178; = x&#xB3; + 486662x&#178; + x
           <br />

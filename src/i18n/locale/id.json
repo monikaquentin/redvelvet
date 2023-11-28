@@ -2,8 +2,58 @@
   "id": {
     "translation": {
       "pages": {
-        "write": "Menulis",
         "home": "RedVelvet",
+        "write": {
+          "title": "Menulis",
+          "latest": "Terbaru",
+          "oldest": "Terlama"
+        },
+        "paper": {
+          "lists": [
+            {
+              "title": "Mencari Kebebasan Melampaui Lubang Kelinci: Tugas Akhir",
+              "subtitle": "September 15, 2023",
+              "url": "/write/thesis",
+              "date": "Sep 2023",
+              "repo": null,
+              "repo_link": null,
+              "warning": "Dalam tahap perencanaan",
+              "read_more": null,
+              "close": null,
+              "content": null,
+              "resolution": null,
+              "resolution_content": null
+            },
+            {
+              "title": "Menyelami Lubang Kelinci: Perspektif Ilmu Komputer",
+              "subtitle": "12 September 2023",
+              "url": "/write/perspective-of-computer-science",
+              "date": "Sep 2023",
+              "repo": null,
+              "repo_link": null,
+              "warning": "Peringatan: Catatan ini berisi opini, pengalaman pribadi, serta sudut pandang yang ekstrem tentang ilmu komputer dalam konteks perkuliahan. Tidak bermaksud untuk merendahkan atau menyinggung pihak mana pun; harap jangan mencernanya secara mentah-mentah tanpa pertimbangan lebih lanjut. Dengan menekan \"Baca selengkapnya\" anda telah dianggap paham.",
+              "read_more": "Baca selengkapnya",
+              "close": "Tutup",
+              "content": "Pernahkah anda merasa bahwa nilai atau IPK tinggi bukanlah segalanya dalam dunia pendidikan? Catatan ini berisi pandangan saya yang mungkin sangat berbeda, bahkan mungkin anda akan membantahnya. Saya tidak meminta apa lagi memaksa anda untuk setuju dengan pendapat atau pandangan saya; prinsip saya adalah mengutamakan pemahaman dan pengembangan diri daripada hanya mengejar nilai atau IPK tinggi. Latar belakang pendidikan saya adalah lulusan sekolah menengah atas jurusan ilmu pengetahuan alam (sains).\n\nMari kita mulai dengan sesuatu yang menarik. Pada akhir semester, dosen saya dengan tegas menyatakan, \"Anda tidak perlu menjadi mahasiswa Informatika untuk menjadi seorang programmer atau pengembang perangkat lunak.\" Saya sepenuhnya setuju dengan pandangannya, sementara sebagian besar mahasiswa lainnya terkejut mendengarnya. Bagaimana perasaan anda jika, di tengah kebingungan dan kelelahan saat menjalani kuliah, anda mendengar pernyataan semacam itu menjelang akhir semester? Apakah anda akan menyesal telah memilih jurusan Informatika? Haha, saya pribadi tidak merasa menyesal. Saya sejalan dengan dosen tersebut, hanya karena ketika saya mendengar argumennya, saya telah membuktikannya dengan menghasilkan sekitar kurang lebih enam puluh juta IDR atau sekitar $3.900 dari satu proyek perangkat lunak saja yang hanya menggunakan bahasa pemrograman JavaScript (proyek tersebut masih berjalan dan produktif hingga saat ini). Untuk informasi tambahan, kampus saya sama sekali tidak mengajarkan bahasa JavaScript.\n\nSekarang mungkin anda mengerti mengapa saya tidak terlalu memprioritaskan nilai IPK. Bagi saya, nilai hanyalah sebatas coretan di atas kertas dan pengakuan belaka yang menghalangi tujuan saya. Saya tidak percaya bahwa memiliki nilai tinggi berarti memiliki keterampilan besar. Saya percaya nilai seharusnya dapat dibuktikan melalui tindakan nyata dan tanggung jawab yang diemban.\n\nMungkin anda bertanya-tanya bagaimana saya bisa produktif melalui Ilmu Komputer dengan reputasi akademik yang kurang baik? Sebelum saya menjawabnya, pertimbangkanlah tujuan anda saat memasuki universitas. Apa benar anda masuk ke universitas hanya karena uang dan oleh uang? Apakah anda berpikir bahwa gelar adalah satu-satunya jalan menuju pekerjaan yang baik? Jawaban saya adalah memilih untuk mengabaikan nilai dan fokus pada aspek finansial terlebih dahulu. Bukan berarti saya tidak butuh nilai; saya hanya mengesampingkannya.\n\nSaya tidak membuat keputusan ini secara sembarangan. Saya memiliki alasan khusus mengapa saya tidak mempercayai nilai. Anda mungkin menyebut saya gila atau bodoh, dan saya tidak akan membantahnya, mengingat IPK saya di bawah rata-rata. Saya khawatir karena banyak yang memiliki nilai tinggi tetapi kesulitan di dunia nyata. Meskipun sebenarnya hal ini bukan urusan saya tapi saya merasa khawatir karena nilai tinggi tidak selalu berarti memiliki keterampilan praktis.\n\nIngin mendengar sesuatu yang mengejutkan lagi? Dosen saya mengatakan bahwa \"90% mahasiswa yang mengikuti seminar semuanya berantakan\" dan mereka tetap lulus begitu saja. Saya juga menerima beberapa tawaran untuk membantu teman seangkatan yang mempunyai nilai lebih tinggi dari saya dalam menyelesaikan skripsi mereka; hanya beberapa tawaran yang saya terima karena mereka menawarkan uang bukan nilai atau pengakuan belaka.\n\nJika demikian, dari sudut pandang sebelah mana saya harus mempercayai nilai?",
+              "resolution": "Resolusi: Hal-hal yang perlu dipertimbangkan jika Anda ingin mempelajari Ilmu Komputer secara otodidak atau sarjana di bidang Informatika.",
+              "resolution_content": "Jangan khawatir, meskipun anda bukan lulusan sekolah kejuruan atau jurusan ilmu pengetahuan alam (sains). Saya yakin anda bisa menjadi seorang profesional di bidang ilmu komputer hanya dengan memanfaatkan internet (belajar sendiri atau tanpa mengikuti kuliah). Saya juga benar-benar buta ketika pertama kali terjun ke dalam dunia ilmu komputer, dan salah satu ketakutan saya adalah matematika, bahkan JavaScript juga tidak terkecuali.\n\nJangan menganggap bahwa kuliah adalah satu-satunya cara untuk mendapatkan pekerjaan. Di luar sana, banyak orang yang tidak memiliki gelar akademik tetapi mampu memberikan pendidikan yang baik kepada anak-anak mereka. Menurut anda mereka membiayai pendidikan anak-anak mereka menggunakan apa? daun? Kuliahlah untuk meningkatkan diri dan bangun reputasi. Dengan gelar, posisi pekerjaan anda dapat naik dan anda dapat memperoleh gaji yang lebih tinggi. Namun, ingatlah bahwa anda juga harus bertanggung jawab atas nama dan gelar yang anda peroleh.\n\nAnda benar-benar dapat menjadi seorang ahli dengan pendekatan belajar mandiri (otodidak). Jika anda memilih jalur ini, kuliah akan menjadi kebutuhan (tambahan), sementara jika anda memilih jalur lain, kuliah mungkin menjadi lebih berfokus pada keperluan (utama). Selain keahlian, memiliki jaringan atau koneksi yang luas juga sangat penting jika anda mengambil jalur otodidak. Sebenarnya, pada akhirnya, ketika anda berada di universitas, anda tetap akan dituntut untuk mengembangkan kemampuan belajar mandiri secara signifikan, namun dengan bimbingan dan arahan dari dosen.\n\nSetelah anda memasuki universitas, anda akan mengikuti kurikulum yang telah ditetapkan. Anda akan menghadapi berbagai mata pelajaran, beberapa di antaranya mungkin dianggap opsional menurut pandangan saya, tergantung pada cita-cita Anda. Mata pelajaran yang akan anda hadapi mencakup berbagai bidang, mulai dari Algoritma Pemrograman, Rekayasa Perangkat Lunak, Kalkulus, Kecerdasan Buatan, Desain, hingga Pengujian Perangkat Lunak.\n\nMengapa opsional? Menurut pandangan saya, berusaha untuk menguasai semua mata pelajaran mungkin terlalu berlebihan, tetapi tidak ada salahnya jika anda mampu melakukannya. Saran saya adalah, daripada berusaha keras untuk mencapai nilai tertinggi pada semua mata pelajaran yang akhirnya dilupakan begitu saja (Karena mereka tidak berguna dalam dunia kerja), lebih baik anda fokus pada pencapaian cita-cita Anda. Carilah nilai yang cukup untuk mata pelajaran yang tidak relevan dan maksimalkan pelajaran yang relevan dengan tujuan karier anda di masa depan.\n\nPerhatikan bahwa setiap dosen juga memiliki bidang keahliannya masing-masing. Saya yakin ketika anda berkuliah, anda tidak akan melihat dosen matematika secara langsung mengimplementasikan dan menjelaskan keterkaitan ilmu matematikanya dengan ilmu komputer (program). Selain itu, jarang pula dosen yang mengajar pemrograman menerapkan ilmu matematika dari dosen sebelumnya langsung ke dalam program yang mereka ajarkan kepada Anda. Semua ini adalah tanggung jawab anda dalam pengembangan diri, dan kembali lagi kepada pencapaian cita-cita Anda. Apakah pekerjaan anda nanti akan membutuhkan pemahaman matematika yang kompleks? Jika sekiranya tidak, anda tidak perlu berlebihan dalam memaksimalkan pemahaman matematika Anda.\n\nMengapa anda harus berusaha keras untuk menguasai semua mata pelajaran? Apakah anda ingin menjadi seorang avatar? Hal tersebut saya anggap sebagai pemborosan waktu. Ingatlah, seorang petinju tidak diharuskan untuk bisa terbang layaknya seorang pilot, begitu pula sebaliknya.\n\nJadi, maksud saya bukanlah menganggap kuliah dan mata pelajaran tertentu tidak penting. Mungkin anda akan merasakannya sendiri nanti ketika memasuki perkuliahan. Meskipun disebut sebagai \"Jurusan\" menurut saya itu tidak sama sekali fokus atau spesifik, melainkan lebih melebar dan meluas. Di sana, ada banyak mata pelajaran yang bersifat opsional (setiap mata pelajaran dapat mengarah ke berbagai profesi) namun anda diharapkan untuk mendapatkan nilai yang baik secara keseluruhan. Hal ini mungkin menjadi hambatan jika anda telah menemukan passion atau tujuan tertentu. Apakah memungkinkan untuk menguasai semua profesi?\n\nCatatan ini membantu anda merencanakan persiapan yang sesuai dengan pencapaian anda lebih dini, sehingga tidak akan terjadinya pemborosan waktu dan energi yang sia-sia. Ya, saya sepenuhnya memahami bahwa dalam ilmu, tidak ada yang sia-sia jika kita mempelajarinya dengan tulus.\n\nPada akhirnya, baik itu nilai (IPK) maupun kuliah, semuanya memiliki nilai dan relevansi jika sesuai dengan kebutuhan dan tujuan masing-masing. Jika anda mampu, tidak ada salahnya menjalani kuliah dan tetap memperhatikan nilai, namun jika anda setuju dengan pendapat saya, usahakan untuk mendapatkan nilai yang memadai pada mata pelajaran yang tidak relevan dengan tujuan cita-cita anda (hindari mengulang). Lebih fokuslah pada pengembangan keahlian dan pencapaian tujuan karier anda di masa depan, serta upayakan untuk meraih nilai tinggi pada mata pelajaran yang relevan dengan profesi Anda.\n\nDalam situasi terburuk, jika anda mengalami hal yang serupa dengan saya dan bahkan lulus dengan keterlambatan, janganlah bersedih. Ketika anda akhirnya lulus, pengalaman kerja dan jam terbang anda sudah cukup untuk mencari pekerjaan yang baik. Terutama jika anda telah mampu memperoleh penghasilan tetap selama masa perkuliahan dari hasil ilmu komputer itu sendiri, apa yang perlu anda khawatirkan? Nilai akademik? Haha.\n\nJangan hanya mencari nilai dengan tujuan untuk lulus, tetapi carilah nilai yang dapat anda pertanggungjawabkan. Jangan sampai setelah lulus nanti anda bekerja di bidang yang tidak sesuai dengan apa yang telah anda pelajari selama perkuliahan; itu adalah pemborosan uang, waktu dan tenaga."
+            },
+            {
+              "title": "Bunga Mawar Merah yang Mekar: Pengantar",
+              "subtitle": "7 Agustus 2023",
+              "url": "/write/an-introduction",
+              "date": "Agu 2023",
+              "repo": "GitHub",
+              "repo_link": "https://github.com/monikaquentin",
+              "warning": null,
+              "read_more": null,
+              "close": null,
+              "content": "Saya menulis perangkat lunak, JavaScript sebagai bahasa utama.",
+              "resolution": null,
+              "resolution_content": null
+            }
+          ]
+        },
         "curve25519": {
           "single": {
             "description": "Pertukaran kunci kurva elips tunggal dengan algoritma Diffie-Hellman dan AES-256-GCM (Galois/Counter Mode). Sama sekali tidak ada data yang keluar dari situs ini. Semuanya ada di mesin Anda, semua data yang antri di dalamnya segera dihapus setelah diproses.",
@@ -70,54 +120,20 @@
               "ciphertext_message_text_area": "Tempelkan pesan terenkripsi Anda."
             }
           }
+        },
+        "bmac": {
+          "title": "Belikan Saya Kopi",
+          "last_update": "Terakhir diperbarui pada 27 November 2023",
+          "greeting": "\n\nSemoga harimu menyenangkan!"
+        },
+        "notfound": {
+          "title": "Tidak ditemukan",
+          "links": {
+            "l1": "Kembali",
+            "l2": "Hubungi dukungan"
+          }
         }
       },
-      "latest": "Terbaru",
-      "oldest": "Terlama",
-      "paper_list": [
-        {
-          "title": "Mencari Kebebasan Melampaui Lubang Kelinci: Tugas Akhir",
-          "subtitle": "September 15, 2023",
-          "url": "/write/thesis",
-          "date": "Sep 2023",
-          "repo": null,
-          "repo_link": null,
-          "warning": "Dalam tahap perencanaan",
-          "read_more": null,
-          "close": null,
-          "content": null,
-          "resolution": null,
-          "resolution_content": null
-        },
-        {
-          "title": "Menyelami Lubang Kelinci: Perspektif Ilmu Komputer",
-          "subtitle": "12 September 2023",
-          "url": "/write/perspective-of-computer-science",
-          "date": "Sep 2023",
-          "repo": null,
-          "repo_link": null,
-          "warning": "Peringatan: Catatan ini berisi opini, pengalaman pribadi, serta sudut pandang yang ekstrem tentang ilmu komputer dalam konteks perkuliahan. Tidak bermaksud untuk merendahkan atau menyinggung pihak mana pun; harap jangan mencernanya secara mentah-mentah tanpa pertimbangan lebih lanjut. Dengan menekan \"Baca selengkapnya\" anda telah dianggap paham.",
-          "read_more": "Baca selengkapnya",
-          "close": "Tutup",
-          "content": "Pernahkah anda merasa bahwa nilai atau IPK tinggi bukanlah segalanya dalam dunia pendidikan? Catatan ini berisi pandangan saya yang mungkin sangat berbeda, bahkan mungkin anda akan membantahnya. Saya tidak meminta apa lagi memaksa anda untuk setuju dengan pendapat atau pandangan saya; prinsip saya adalah mengutamakan pemahaman dan pengembangan diri daripada hanya mengejar nilai atau IPK tinggi. Latar belakang pendidikan saya adalah lulusan sekolah menengah atas jurusan ilmu pengetahuan alam (sains).\n\nMari kita mulai dengan sesuatu yang menarik. Pada akhir semester, dosen saya dengan tegas menyatakan, \"Anda tidak perlu menjadi mahasiswa Informatika untuk menjadi seorang programmer atau pengembang perangkat lunak.\" Saya sepenuhnya setuju dengan pandangannya, sementara sebagian besar mahasiswa lainnya terkejut mendengarnya. Bagaimana perasaan anda jika, di tengah kebingungan dan kelelahan saat menjalani kuliah, anda mendengar pernyataan semacam itu menjelang akhir semester? Apakah anda akan menyesal telah memilih jurusan Informatika? Haha, saya pribadi tidak merasa menyesal. Saya sejalan dengan dosen tersebut, hanya karena ketika saya mendengar argumennya, saya telah membuktikannya dengan menghasilkan sekitar kurang lebih enam puluh juta IDR atau sekitar $3.900 dari satu proyek perangkat lunak saja yang hanya menggunakan bahasa pemrograman JavaScript (proyek tersebut masih berjalan dan produktif hingga saat ini). Untuk informasi tambahan, kampus saya sama sekali tidak mengajarkan bahasa JavaScript.\n\nSekarang mungkin anda mengerti mengapa saya tidak terlalu memprioritaskan nilai IPK. Bagi saya, nilai hanyalah sebatas coretan di atas kertas dan pengakuan belaka yang menghalangi tujuan saya. Saya tidak percaya bahwa memiliki nilai tinggi berarti memiliki keterampilan besar. Saya percaya nilai seharusnya dapat dibuktikan melalui tindakan nyata dan tanggung jawab yang diemban.\n\nMungkin anda bertanya-tanya bagaimana saya bisa produktif melalui Ilmu Komputer dengan reputasi akademik yang kurang baik? Sebelum saya menjawabnya, pertimbangkanlah tujuan anda saat memasuki universitas. Apa benar anda masuk ke universitas hanya karena uang dan oleh uang? Apakah anda berpikir bahwa gelar adalah satu-satunya jalan menuju pekerjaan yang baik? Jawaban saya adalah memilih untuk mengabaikan nilai dan fokus pada aspek finansial terlebih dahulu. Bukan berarti saya tidak butuh nilai; saya hanya mengesampingkannya.\n\nSaya tidak membuat keputusan ini secara sembarangan. Saya memiliki alasan khusus mengapa saya tidak mempercayai nilai. Anda mungkin menyebut saya gila atau bodoh, dan saya tidak akan membantahnya, mengingat IPK saya di bawah rata-rata. Saya khawatir karena banyak yang memiliki nilai tinggi tetapi kesulitan di dunia nyata. Meskipun sebenarnya hal ini bukan urusan saya tapi saya merasa khawatir karena nilai tinggi tidak selalu berarti memiliki keterampilan praktis.\n\nIngin mendengar sesuatu yang mengejutkan lagi? Dosen saya mengatakan bahwa \"90% mahasiswa yang mengikuti seminar semuanya berantakan\" dan mereka tetap lulus begitu saja. Saya juga menerima beberapa tawaran untuk membantu teman seangkatan yang mempunyai nilai lebih tinggi dari saya dalam menyelesaikan skripsi mereka; hanya beberapa tawaran yang saya terima karena mereka menawarkan uang bukan nilai atau pengakuan belaka.\n\nJika demikian, dari sudut pandang sebelah mana saya harus mempercayai nilai?",
-          "resolution": "Resolusi: Hal-hal yang perlu dipertimbangkan jika Anda ingin mempelajari Ilmu Komputer secara otodidak atau sarjana di bidang Informatika.",
-          "resolution_content": "Jangan khawatir, meskipun anda bukan lulusan sekolah kejuruan atau jurusan ilmu pengetahuan alam (sains). Saya yakin anda bisa menjadi seorang profesional di bidang ilmu komputer hanya dengan memanfaatkan internet (belajar sendiri atau tanpa mengikuti kuliah). Saya juga benar-benar buta ketika pertama kali terjun ke dalam dunia ilmu komputer, dan salah satu ketakutan saya adalah matematika, bahkan JavaScript juga tidak terkecuali.\n\nJangan menganggap bahwa kuliah adalah satu-satunya cara untuk mendapatkan pekerjaan. Di luar sana, banyak orang yang tidak memiliki gelar akademik tetapi mampu memberikan pendidikan yang baik kepada anak-anak mereka. Menurut anda mereka membiayai pendidikan anak-anak mereka menggunakan apa? daun? Kuliahlah untuk meningkatkan diri dan bangun reputasi. Dengan gelar, posisi pekerjaan anda dapat naik dan anda dapat memperoleh gaji yang lebih tinggi. Namun, ingatlah bahwa anda juga harus bertanggung jawab atas nama dan gelar yang anda peroleh.\n\nAnda benar-benar dapat menjadi seorang ahli dengan pendekatan belajar mandiri (otodidak). Jika anda memilih jalur ini, kuliah akan menjadi kebutuhan (tambahan), sementara jika anda memilih jalur lain, kuliah mungkin menjadi lebih berfokus pada keperluan (utama). Selain keahlian, memiliki jaringan atau koneksi yang luas juga sangat penting jika anda mengambil jalur otodidak. Sebenarnya, pada akhirnya, ketika anda berada di universitas, anda tetap akan dituntut untuk mengembangkan kemampuan belajar mandiri secara signifikan, namun dengan bimbingan dan arahan dari dosen.\n\nSetelah anda memasuki universitas, anda akan mengikuti kurikulum yang telah ditetapkan. Anda akan menghadapi berbagai mata pelajaran, beberapa di antaranya mungkin dianggap opsional menurut pandangan saya, tergantung pada cita-cita Anda. Mata pelajaran yang akan anda hadapi mencakup berbagai bidang, mulai dari Algoritma Pemrograman, Rekayasa Perangkat Lunak, Kalkulus, Kecerdasan Buatan, Desain, hingga Pengujian Perangkat Lunak.\n\nMengapa opsional? Menurut pandangan saya, berusaha untuk menguasai semua mata pelajaran mungkin terlalu berlebihan, tetapi tidak ada salahnya jika anda mampu melakukannya. Saran saya adalah, daripada berusaha keras untuk mencapai nilai tertinggi pada semua mata pelajaran yang akhirnya dilupakan begitu saja (Karena mereka tidak berguna dalam dunia kerja), lebih baik anda fokus pada pencapaian cita-cita Anda. Carilah nilai yang cukup untuk mata pelajaran yang tidak relevan dan maksimalkan pelajaran yang relevan dengan tujuan karier anda di masa depan.\n\nPerhatikan bahwa setiap dosen juga memiliki bidang keahliannya masing-masing. Saya yakin ketika anda berkuliah, anda tidak akan melihat dosen matematika secara langsung mengimplementasikan dan menjelaskan keterkaitan ilmu matematikanya dengan ilmu komputer (program). Selain itu, jarang pula dosen yang mengajar pemrograman menerapkan ilmu matematika dari dosen sebelumnya langsung ke dalam program yang mereka ajarkan kepada Anda. Semua ini adalah tanggung jawab anda dalam pengembangan diri, dan kembali lagi kepada pencapaian cita-cita Anda. Apakah pekerjaan anda nanti akan membutuhkan pemahaman matematika yang kompleks? Jika sekiranya tidak, anda tidak perlu berlebihan dalam memaksimalkan pemahaman matematika Anda.\n\nMengapa anda harus berusaha keras untuk menguasai semua mata pelajaran? Apakah anda ingin menjadi seorang avatar? Hal tersebut saya anggap sebagai pemborosan waktu. Ingatlah, seorang petinju tidak diharuskan untuk bisa terbang layaknya seorang pilot, begitu pula sebaliknya.\n\nJadi, maksud saya bukanlah menganggap kuliah dan mata pelajaran tertentu tidak penting. Mungkin anda akan merasakannya sendiri nanti ketika memasuki perkuliahan. Meskipun disebut sebagai \"Jurusan\" menurut saya itu tidak sama sekali fokus atau spesifik, melainkan lebih melebar dan meluas. Di sana, ada banyak mata pelajaran yang bersifat opsional (setiap mata pelajaran dapat mengarah ke berbagai profesi) namun anda diharapkan untuk mendapatkan nilai yang baik secara keseluruhan. Hal ini mungkin menjadi hambatan jika anda telah menemukan passion atau tujuan tertentu. Apakah memungkinkan untuk menguasai semua profesi?\n\nCatatan ini membantu anda merencanakan persiapan yang sesuai dengan pencapaian anda lebih dini, sehingga tidak akan terjadinya pemborosan waktu dan energi yang sia-sia. Ya, saya sepenuhnya memahami bahwa dalam ilmu, tidak ada yang sia-sia jika kita mempelajarinya dengan tulus.\n\nPada akhirnya, baik itu nilai (IPK) maupun kuliah, semuanya memiliki nilai dan relevansi jika sesuai dengan kebutuhan dan tujuan masing-masing. Jika anda mampu, tidak ada salahnya menjalani kuliah dan tetap memperhatikan nilai, namun jika anda setuju dengan pendapat saya, usahakan untuk mendapatkan nilai yang memadai pada mata pelajaran yang tidak relevan dengan tujuan cita-cita anda (hindari mengulang). Lebih fokuslah pada pengembangan keahlian dan pencapaian tujuan karier anda di masa depan, serta upayakan untuk meraih nilai tinggi pada mata pelajaran yang relevan dengan profesi Anda.\n\nDalam situasi terburuk, jika anda mengalami hal yang serupa dengan saya dan bahkan lulus dengan keterlambatan, janganlah bersedih. Ketika anda akhirnya lulus, pengalaman kerja dan jam terbang anda sudah cukup untuk mencari pekerjaan yang baik. Terutama jika anda telah mampu memperoleh penghasilan tetap selama masa perkuliahan dari hasil ilmu komputer itu sendiri, apa yang perlu anda khawatirkan? Nilai akademik? Haha.\n\nJangan hanya mencari nilai dengan tujuan untuk lulus, tetapi carilah nilai yang dapat anda pertanggungjawabkan. Jangan sampai setelah lulus nanti anda bekerja di bidang yang tidak sesuai dengan apa yang telah anda pelajari selama perkuliahan; itu adalah pemborosan uang, waktu dan tenaga."
-        },
-        {
-          "title": "Bunga Mawar Merah yang Mekar: Pengantar",
-          "subtitle": "7 Agustus 2023",
-          "url": "/write/an-introduction",
-          "date": "Agu 2023",
-          "repo": "GitHub",
-          "repo_link": "https://github.com/monikaquentin",
-          "warning": null,
-          "read_more": null,
-          "close": null,
-          "content": "Saya menulis perangkat lunak, JavaScript sebagai bahasa utama.",
-          "resolution": null,
-          "resolution_content": null
-        }
-      ],
       "maintenance": {
         "p1": "Jika Anda melihat halaman ini, cloudfront berfungsi dengan baik, dan ada sesuatu yang sedang disiapkan. Menunggu lebih lanjut diperlukan.\n\nUntuk informasi dan pertanyaan bisnis, silakan merujuk ke",
         "p2": "\n\nSemoga harimu menyenangkan!"
