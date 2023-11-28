@@ -1,10 +1,6 @@
 import PropTypes from 'prop-types'
 
-TextArea.propTypes = {
-  attr: PropTypes.object
-}
-
-function TextArea({ attr }) {
+const TextArea = ({ attr }) => {
   return (
     <div className="default-textarea">
       <label htmlFor={attr.htmlFor}>{attr.label}</label>
@@ -25,6 +21,10 @@ function TextArea({ attr }) {
       </div>
     </div>
   )
+}
+
+TextArea.propTypes = {
+  attr: PropTypes.object
 }
 
 export default TextArea

@@ -3,13 +3,7 @@ import PropTypes from 'prop-types'
 import Header from '@/components/global/Header'
 import Footer from '@/components/global/Footer'
 
-Container.propTypes = {
-  sectionClass: PropTypes.string,
-  children: PropTypes.any,
-  header: PropTypes.object
-}
-
-function Container({ sectionClass, children, header }) {
+const Container = ({ sectionClass, children, header }) => {
   return (
     <div className="container">
       <section className={sectionClass}>
@@ -21,6 +15,12 @@ function Container({ sectionClass, children, header }) {
       </section>
     </div>
   )
+}
+
+Container.propTypes = {
+  sectionClass: PropTypes.string,
+  children: PropTypes.any,
+  header: PropTypes.object
 }
 
 export default Container

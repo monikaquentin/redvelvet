@@ -2,8 +2,58 @@
   "fr": {
     "translation": {
       "pages": {
-        "write": "Écrire",
         "home": "RedVelvet",
+        "write": {
+          "title": "Écrire",
+          "latest": "Plus récent",
+          "oldest": "Le plus ancien"
+        },
+        "paper": {
+          "lists": [
+            {
+              "title": "À la recherche de la liberté au-delà du terrier du lapin : thèse",
+              "subtitle": "15 septembre 2023",
+              "url": "/write/thesis",
+              "date": "Sep 2023",
+              "repo": null,
+              "repo_link": null,
+              "warning": "En phase de planification",
+              "read_more": null,
+              "close": null,
+              "content": null,
+              "resolution": null,
+              "resolution_content": null
+            },
+            {
+              "title": "Plonger dans le terrier du lapin : perspective de l'informatique",
+              "subtitle": "12 septembre 2023",
+              "url": "/write/perspective-of-computer-science",
+              "date": "Sep 2023",
+              "repo": null,
+              "repo_link": null,
+              "warning": "Avertissement : ces notes contiennent des opinions, des expériences personnelles et des points de vue extrêmes sur l'informatique dans un contexte magistral. Non destiné à rabaisser ou offenser une quelconque partie; veuillez ne pas le digérer complètement sans autre réflexion. En appuyant sur « Lire la suite », vous êtes censé comprendre.",
+              "read_more": "En savoir plus",
+              "close": "Fermer",
+              "content": "Avez-vous déjà pensé que des notes élevées ou une moyenne cumulative ne font pas tout dans le monde de l'éducation ? Cette note contient mes opinions qui peuvent être très différentes, peut-être même les contesterez-vous. Je ne demande rien d'autre pour vous forcer à être d'accord avec mon opinion ou mes points de vue; Mon principe est de donner la priorité à la compréhension de soi et au développement plutôt que de simplement rechercher des notes élevées ou une moyenne cumulative. J'ai suivi une formation universitaire en sciences naturelles (sciences).\n\nCommençons par quelque chose d'intéressant. À la fin du semestre, mon professeur a déclaré avec insistance : « Vous n'avez pas besoin d'être un étudiant en informatique pour être programmeur ou développeur de logiciels. J’étais entièrement d’accord avec son point de vue, alors que la plupart des autres étudiants étaient choqués d’entendre cela. Que ressentiriez-vous si, au milieu de la confusion et de l’épuisement de l’université, vous entendiez une telle déclaration vers la fin du semestre ? Regretterez-vous d'avoir choisi la majeure en informatique ? Haha, personnellement, je ne me sens pas désolé. Je suis d'accord avec le conférencier, uniquement parce que lorsque j'ai entendu son argument, je l'ai prouvé en gagnant environ soixante millions IDR ou environ 3 900 $ avec un seul projet logiciel qui utilise uniquement le langage de programmation JavaScript (le projet est toujours en cours et productif à ce jour). ). Pour plus d'informations, mon campus n'enseigne pas du tout JavaScript.\n\nMaintenant, vous comprenez peut-être pourquoi je ne donne pas vraiment la priorité à GPA. Pour moi, les notes ne sont que des gribouillages sur du papier et une simple reconnaissance qui fait obstacle à mes objectifs. Je ne crois pas qu'avoir de bonnes notes signifie avoir de grandes compétences. Je crois que la valeur doit être prouvée par des actions et des responsabilités réelles.\n\nPeut-être vous demandez-vous comment puis-je être productif grâce à l'informatique avec une mauvaise réputation académique ? Avant de répondre, réfléchissez à vos objectifs lorsque vous entrez à l’université. Est-il vrai que l’on va à l’université uniquement pour de l’argent et pour de l’argent ? Pensez-vous qu’un diplôme est la seule voie vers un bon emploi ? Ma réponse est de choisir d’ignorer la valeur et de me concentrer d’abord sur l’aspect financier. Cela ne veut pas dire que je n'ai pas besoin de notes; Je l'ai simplement mis de côté.\n\nJe n'ai pas pris cette décision à la légère. J'ai une raison précise pour laquelle je ne crois pas aux notes. Vous pourriez me traiter de fou ou de stupide, et je ne discuterai pas, étant donné que ma moyenne cumulative est inférieure à la moyenne. Je m'inquiète parce que beaucoup ont des notes élevées mais ont des difficultés dans le monde réel. Même si cela ne me regarde pas, je suis inquiet car des notes élevées ne signifient pas toujours avoir des compétences pratiques.\n\nVous voulez encore entendre quelque chose de surprenant ? Mon professeur disait que « 90 % des étudiants qui suivent des séminaires sont tous ratés » et pourtant ils réussissent quand même. J'ai également reçu plusieurs offres pour aider mes camarades de classe qui avaient de meilleures notes que moi à terminer leur thèse; J'accepte seulement certaines offres parce qu'elles offrent de l'argent plutôt que de la valeur ou une simple reconnaissance.\n\nSi oui, dans quelle perspective dois-je croire en la valeur ?",
+              "resolution": "Résolution : Éléments à considérer si vous souhaitez vous plonger dans l’informatique de manière autodidacte ou de premier cycle en informatique.",
+              "resolution_content": "Ne vous inquiétez pas, même si vous n'êtes pas diplômé d'une école professionnelle ou d'une spécialisation en sciences naturelles (sciences). Je suis sûr que vous pouvez devenir un professionnel dans le domaine de l'informatique simplement en utilisant Internet (en étudiant seul ou sans assister à des cours). J'étais également complètement aveugle lorsque je suis entré dans le monde de l'informatique, et l'une de mes craintes était les mathématiques, même JavaScript ne fait pas exception.\n\nNe présumez pas que l'université est le seul moyen de trouver un emploi. Là-bas, de nombreuses personnes n’ont pas de diplôme universitaire mais sont capables de fournir une bonne éducation à leurs enfants. À votre avis, qu’utilisent-ils pour financer l’éducation de leurs enfants ? feuille? Étudiez pour vous améliorer et vous bâtir une réputation. Avec un diplôme, votre poste peut évoluer et vous pouvez gagner un salaire plus élevé. Cependant, n'oubliez pas que vous devez également être responsable du nom et du titre que vous obtenez.\n\nVous pouvez véritablement devenir un expert avec une approche d'apprentissage indépendante (autodidacte). Si vous choisissez cette voie, l’université sera une nécessité (supplémentaire), tandis que si vous choisissez une autre voie, l’université pourrait devenir davantage axée sur la nécessité (principale). Outre l’expertise, disposer d’un vaste réseau ou de connexions est également très important si vous empruntez la voie de l’autodidacte. En fait, en fin de compte, lorsque vous serez à l'université, vous devrez toujours développer vos capacités d'apprentissage indépendant de manière significative, mais avec les conseils et les directives des professeurs.\n\nAprès votre entrée à l'université, vous suivrez un programme prédéterminé. Vous rencontrerez des matières variées, dont certaines peuvent être considérées comme optionnelles à mon sens, selon vos aspirations. Les sujets auxquels vous serez confronté couvrent divers domaines, des algorithmes de programmation, du génie logiciel, du calcul, de l'intelligence artificielle, de la conception aux tests logiciels.\n\nPourquoi est-ce facultatif ? À mon avis, essayer de maîtriser tous les sujets est peut-être trop, mais il n'y a aucun mal à y parvenir. Mon conseil est qu'au lieu de vous efforcer d'obtenir le score le plus élevé dans toutes les matières qui finissent par être oubliées (Parce qu'ils sont inutiles dans le monde du travail), il vaut mieux que vous vous concentriez sur l'atteinte de vos objectifs. Recherchez des notes suffisantes pour les sujets non pertinents et maximisez les leçons pertinentes pour vos futurs objectifs de carrière.\n\nNotez que chaque professeur a également son propre domaine d'expertise. Je suis sûr que lorsque vous irez à l'université, vous ne verrez pas de professeurs de mathématiques mettre en œuvre et expliquer directement la relation entre les mathématiques et l'informatique (programmes). En dehors de cela, il est rare que les professeurs qui enseignent la programmation appliquent les connaissances mathématiques des professeurs précédents directement dans le programme qu’ils vous enseignent. Tout cela relève de votre responsabilité dans votre développement personnel et revient à atteindre vos objectifs. Votre futur travail nécessitera-t-il une compréhension des mathématiques complexes ? Sinon, vous n'avez pas besoin d'en faire trop pour optimiser votre compréhension des mathématiques.\n\nPourquoi devriez-vous vous efforcer de maîtriser toutes les matières ? Voulez-vous être un avatar ? Je considère cela comme une perte de temps. N'oubliez pas qu'un boxeur n'est pas obligé d'être capable de voler comme un pilote, et vice versa.\n\nDonc, ce que je veux dire, c'est de ne pas penser que l'université et certaines matières ne sont pas importantes. Peut-être que vous le ressentirez vous-même plus tard lorsque vous entrerez à l’université. Même si on l'appelle « Majeure », je ne pense pas qu'il soit du tout ciblé ou spécifique, mais plutôt large et expansif. Là-bas, de nombreuses matières sont facultatives (chaque matière peut conduire à des métiers différents) mais vous êtes censé obtenir de bonnes notes dans l'ensemble. Cela peut être un obstacle si vous avez trouvé une passion ou un objectif particulier. Est-il possible de maîtriser tous les métiers ?\n\nCes notes vous aident à planifier à l'avance les préparatifs adaptés à vos réalisations, afin d'éviter toute perte de temps et d'énergie. Oui, je comprends parfaitement qu'en science, rien n'est gaspillé si on l'étudie sincèrement.\n\nEn fin de compte, qu'il s'agisse des notes (GPA) ou de l'université, tout a de la valeur et de la pertinence s'il correspond aux besoins et aux objectifs de chacun. Si vous en êtes capable, il n'y a aucun mal à aller à l'université tout en faisant attention aux notes, mais si vous êtes d'accord avec mon opinion, essayez d'obtenir des notes adéquates dans des matières qui ne correspondent pas à vos objectifs (évitez de redoubler). Concentrez-vous davantage sur le développement de vos compétences et sur la réalisation de vos objectifs de carrière à l'avenir, et essayez d'obtenir des notes élevées dans des matières pertinentes pour votre profession.\n\nDans le pire des cas, si vous vivez quelque chose de similaire à moi et même obtenez votre diplôme tardivement, ne ce n'est pas triste. Une fois votre diplôme obtenu, votre expérience professionnelle et vos heures de vol suffiront à trouver un bon emploi. Surtout si vous avez pu gagner un revenu stable pendant vos études grâce à l’informatique elle-même, de quoi devez-vous vous inquiéter ? Des notes académiques ? Haha.\n\nNe cherchez pas seulement les notes dans le but d'obtenir votre diplôme, mais recherchez les notes dont vous pouvez être responsable. Ne vous laissez pas travailler dans un domaine qui ne correspond pas à ce que vous avez appris pendant vos études après l'obtention de votre diplôme; c'est une perte d'argent, de temps et d'énergie."
+            },
+            {
+              "title": "Roses rouges en fleurs : une introduction",
+              "subtitle": "7 août 2023",
+              "url": "/write/an-introduction",
+              "date": "Août 2023",
+              "repo": "GitHub",
+              "repo_link": "https://github.com/monikaquentin",
+              "warning": null,
+              "read_more": null,
+              "close": null,
+              "content": "J'écris des logiciels, JavaScript comme langage principal.",
+              "resolution": null,
+              "resolution_content": null
+            }
+          ]
+        },
         "curve25519": {
           "single": {
             "description": "Échange de clés à courbe elliptique unique avec l'algorithme Diffie-Hellman et AES-256-GCM (Galois/Counter Mode). Absolument aucune donnée ne quitte ce site. Tout est dans votre machine, toutes les données en file d'attente sont immédiatement purgées après avoir été traitées.",
@@ -70,54 +120,20 @@
               "ciphertext_message_text_area": "Collez votre message crypté."
             }
           }
+        },
+        "bmac": {
+          "title": "Achetez-moi un café",
+          "last_update": "Dernière mise à jour le 27 novembre 2023",
+          "greeting": "\n\nPasse une bonne journée!"
+        },
+        "notfound": {
+          "title": "Pas trouvé",
+          "links": {
+            "l1": "Retourner",
+            "l2": "Contactez le support"
+          }
         }
       },
-      "latest": "Plus récent",
-      "oldest": "Le plus ancien",
-      "paper_list": [
-        {
-          "title": "À la recherche de la liberté au-delà du terrier du lapin : thèse",
-          "subtitle": "15 septembre 2023",
-          "url": "/write/thesis",
-          "date": "Sep 2023",
-          "repo": null,
-          "repo_link": null,
-          "warning": "En phase de planification",
-          "read_more": null,
-          "close": null,
-          "content": null,
-          "resolution": null,
-          "resolution_content": null
-        },
-        {
-          "title": "Plonger dans le terrier du lapin : perspective de l'informatique",
-          "subtitle": "12 septembre 2023",
-          "url": "/write/perspective-of-computer-science",
-          "date": "Sep 2023",
-          "repo": null,
-          "repo_link": null,
-          "warning": "Avertissement : ces notes contiennent des opinions, des expériences personnelles et des points de vue extrêmes sur l'informatique dans un contexte magistral. Non destiné à rabaisser ou offenser une quelconque partie; veuillez ne pas le digérer complètement sans autre réflexion. En appuyant sur « Lire la suite », vous êtes censé comprendre.",
-          "read_more": "En savoir plus",
-          "close": "Fermer",
-          "content": "Avez-vous déjà pensé que des notes élevées ou une moyenne cumulative ne font pas tout dans le monde de l'éducation ? Cette note contient mes opinions qui peuvent être très différentes, peut-être même les contesterez-vous. Je ne demande rien d'autre pour vous forcer à être d'accord avec mon opinion ou mes points de vue; Mon principe est de donner la priorité à la compréhension de soi et au développement plutôt que de simplement rechercher des notes élevées ou une moyenne cumulative. J'ai suivi une formation universitaire en sciences naturelles (sciences).\n\nCommençons par quelque chose d'intéressant. À la fin du semestre, mon professeur a déclaré avec insistance : « Vous n'avez pas besoin d'être un étudiant en informatique pour être programmeur ou développeur de logiciels. J’étais entièrement d’accord avec son point de vue, alors que la plupart des autres étudiants étaient choqués d’entendre cela. Que ressentiriez-vous si, au milieu de la confusion et de l’épuisement de l’université, vous entendiez une telle déclaration vers la fin du semestre ? Regretterez-vous d'avoir choisi la majeure en informatique ? Haha, personnellement, je ne me sens pas désolé. Je suis d'accord avec le conférencier, uniquement parce que lorsque j'ai entendu son argument, je l'ai prouvé en gagnant environ soixante millions IDR ou environ 3 900 $ avec un seul projet logiciel qui utilise uniquement le langage de programmation JavaScript (le projet est toujours en cours et productif à ce jour). ). Pour plus d'informations, mon campus n'enseigne pas du tout JavaScript.\n\nMaintenant, vous comprenez peut-être pourquoi je ne donne pas vraiment la priorité à GPA. Pour moi, les notes ne sont que des gribouillages sur du papier et une simple reconnaissance qui fait obstacle à mes objectifs. Je ne crois pas qu'avoir de bonnes notes signifie avoir de grandes compétences. Je crois que la valeur doit être prouvée par des actions et des responsabilités réelles.\n\nPeut-être vous demandez-vous comment puis-je être productif grâce à l'informatique avec une mauvaise réputation académique ? Avant de répondre, réfléchissez à vos objectifs lorsque vous entrez à l’université. Est-il vrai que l’on va à l’université uniquement pour de l’argent et pour de l’argent ? Pensez-vous qu’un diplôme est la seule voie vers un bon emploi ? Ma réponse est de choisir d’ignorer la valeur et de me concentrer d’abord sur l’aspect financier. Cela ne veut pas dire que je n'ai pas besoin de notes; Je l'ai simplement mis de côté.\n\nJe n'ai pas pris cette décision à la légère. J'ai une raison précise pour laquelle je ne crois pas aux notes. Vous pourriez me traiter de fou ou de stupide, et je ne discuterai pas, étant donné que ma moyenne cumulative est inférieure à la moyenne. Je m'inquiète parce que beaucoup ont des notes élevées mais ont des difficultés dans le monde réel. Même si cela ne me regarde pas, je suis inquiet car des notes élevées ne signifient pas toujours avoir des compétences pratiques.\n\nVous voulez encore entendre quelque chose de surprenant ? Mon professeur disait que « 90 % des étudiants qui suivent des séminaires sont tous ratés » et pourtant ils réussissent quand même. J'ai également reçu plusieurs offres pour aider mes camarades de classe qui avaient de meilleures notes que moi à terminer leur thèse; J'accepte seulement certaines offres parce qu'elles offrent de l'argent plutôt que de la valeur ou une simple reconnaissance.\n\nSi oui, dans quelle perspective dois-je croire en la valeur ?",
-          "resolution": "Résolution : Éléments à considérer si vous souhaitez vous plonger dans l’informatique de manière autodidacte ou de premier cycle en informatique.",
-          "resolution_content": "Ne vous inquiétez pas, même si vous n'êtes pas diplômé d'une école professionnelle ou d'une spécialisation en sciences naturelles (sciences). Je suis sûr que vous pouvez devenir un professionnel dans le domaine de l'informatique simplement en utilisant Internet (en étudiant seul ou sans assister à des cours). J'étais également complètement aveugle lorsque je suis entré dans le monde de l'informatique, et l'une de mes craintes était les mathématiques, même JavaScript ne fait pas exception.\n\nNe présumez pas que l'université est le seul moyen de trouver un emploi. Là-bas, de nombreuses personnes n’ont pas de diplôme universitaire mais sont capables de fournir une bonne éducation à leurs enfants. À votre avis, qu’utilisent-ils pour financer l’éducation de leurs enfants ? feuille? Étudiez pour vous améliorer et vous bâtir une réputation. Avec un diplôme, votre poste peut évoluer et vous pouvez gagner un salaire plus élevé. Cependant, n'oubliez pas que vous devez également être responsable du nom et du titre que vous obtenez.\n\nVous pouvez véritablement devenir un expert avec une approche d'apprentissage indépendante (autodidacte). Si vous choisissez cette voie, l’université sera une nécessité (supplémentaire), tandis que si vous choisissez une autre voie, l’université pourrait devenir davantage axée sur la nécessité (principale). Outre l’expertise, disposer d’un vaste réseau ou de connexions est également très important si vous empruntez la voie de l’autodidacte. En fait, en fin de compte, lorsque vous serez à l'université, vous devrez toujours développer vos capacités d'apprentissage indépendant de manière significative, mais avec les conseils et les directives des professeurs.\n\nAprès votre entrée à l'université, vous suivrez un programme prédéterminé. Vous rencontrerez des matières variées, dont certaines peuvent être considérées comme optionnelles à mon sens, selon vos aspirations. Les sujets auxquels vous serez confronté couvrent divers domaines, des algorithmes de programmation, du génie logiciel, du calcul, de l'intelligence artificielle, de la conception aux tests logiciels.\n\nPourquoi est-ce facultatif ? À mon avis, essayer de maîtriser tous les sujets est peut-être trop, mais il n'y a aucun mal à y parvenir. Mon conseil est qu'au lieu de vous efforcer d'obtenir le score le plus élevé dans toutes les matières qui finissent par être oubliées (Parce qu'ils sont inutiles dans le monde du travail), il vaut mieux que vous vous concentriez sur l'atteinte de vos objectifs. Recherchez des notes suffisantes pour les sujets non pertinents et maximisez les leçons pertinentes pour vos futurs objectifs de carrière.\n\nNotez que chaque professeur a également son propre domaine d'expertise. Je suis sûr que lorsque vous irez à l'université, vous ne verrez pas de professeurs de mathématiques mettre en œuvre et expliquer directement la relation entre les mathématiques et l'informatique (programmes). En dehors de cela, il est rare que les professeurs qui enseignent la programmation appliquent les connaissances mathématiques des professeurs précédents directement dans le programme qu’ils vous enseignent. Tout cela relève de votre responsabilité dans votre développement personnel et revient à atteindre vos objectifs. Votre futur travail nécessitera-t-il une compréhension des mathématiques complexes ? Sinon, vous n'avez pas besoin d'en faire trop pour optimiser votre compréhension des mathématiques.\n\nPourquoi devriez-vous vous efforcer de maîtriser toutes les matières ? Voulez-vous être un avatar ? Je considère cela comme une perte de temps. N'oubliez pas qu'un boxeur n'est pas obligé d'être capable de voler comme un pilote, et vice versa.\n\nDonc, ce que je veux dire, c'est de ne pas penser que l'université et certaines matières ne sont pas importantes. Peut-être que vous le ressentirez vous-même plus tard lorsque vous entrerez à l’université. Même si on l'appelle « Majeure », je ne pense pas qu'il soit du tout ciblé ou spécifique, mais plutôt large et expansif. Là-bas, de nombreuses matières sont facultatives (chaque matière peut conduire à des métiers différents) mais vous êtes censé obtenir de bonnes notes dans l'ensemble. Cela peut être un obstacle si vous avez trouvé une passion ou un objectif particulier. Est-il possible de maîtriser tous les métiers ?\n\nCes notes vous aident à planifier à l'avance les préparatifs adaptés à vos réalisations, afin d'éviter toute perte de temps et d'énergie. Oui, je comprends parfaitement qu'en science, rien n'est gaspillé si on l'étudie sincèrement.\n\nEn fin de compte, qu'il s'agisse des notes (GPA) ou de l'université, tout a de la valeur et de la pertinence s'il correspond aux besoins et aux objectifs de chacun. Si vous en êtes capable, il n'y a aucun mal à aller à l'université tout en faisant attention aux notes, mais si vous êtes d'accord avec mon opinion, essayez d'obtenir des notes adéquates dans des matières qui ne correspondent pas à vos objectifs (évitez de redoubler). Concentrez-vous davantage sur le développement de vos compétences et sur la réalisation de vos objectifs de carrière à l'avenir, et essayez d'obtenir des notes élevées dans des matières pertinentes pour votre profession.\n\nDans le pire des cas, si vous vivez quelque chose de similaire à moi et même obtenez votre diplôme tardivement, ne ce n'est pas triste. Une fois votre diplôme obtenu, votre expérience professionnelle et vos heures de vol suffiront à trouver un bon emploi. Surtout si vous avez pu gagner un revenu stable pendant vos études grâce à l’informatique elle-même, de quoi devez-vous vous inquiéter ? Des notes académiques ? Haha.\n\nNe cherchez pas seulement les notes dans le but d'obtenir votre diplôme, mais recherchez les notes dont vous pouvez être responsable. Ne vous laissez pas travailler dans un domaine qui ne correspond pas à ce que vous avez appris pendant vos études après l'obtention de votre diplôme; c'est une perte d'argent, de temps et d'énergie."
-        },
-        {
-          "title": "Roses rouges en fleurs : une introduction",
-          "subtitle": "7 août 2023",
-          "url": "/write/an-introduction",
-          "date": "Août 2023",
-          "repo": "GitHub",
-          "repo_link": "https://github.com/monikaquentin",
-          "warning": null,
-          "read_more": null,
-          "close": null,
-          "content": "J'écris des logiciels, JavaScript comme langage principal.",
-          "resolution": null,
-          "resolution_content": null
-        }
-      ],
       "maintenance": {
         "p1": "Si vous voyez cette page, cela signifie que Cloudfront fonctionne correctement et que quelque chose est en cours de configuration. Une attente supplémentaire est nécessaire.\n\nPour plus d'informations et des demandes commerciales, veuillez vous référer à",
         "p2": "\n\nPasse une bonne journée!"

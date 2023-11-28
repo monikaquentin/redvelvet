@@ -1,11 +1,11 @@
-import HomeIcon from '@/components/default/icons/home'
-import PencilIcon from '@/components/default/icons/pencil'
+import HomeIcon from '@/components/default/icons/HomeIcon'
+import PencilIcon from '@/components/default/icons/PencilIcon'
 
 import Language from '@/components/global/Language'
 
 import { Link, useLocation } from 'react-router-dom'
 
-function Navigation() {
+const Navigation = () => {
   const pathname = useLocation().pathname
 
   return (

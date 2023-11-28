@@ -20,7 +20,7 @@ export default i18next
   .use(HttpBackend)
   // init i18next
   .init({
-    debug: true,
+    debug: import.meta.env.VITE_APP_ENV !== 'production',
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false // not needed for react as it escapes by default

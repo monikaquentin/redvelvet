@@ -1,20 +1,16 @@
+import PropTypes from 'prop-types'
+
 import Aes256GCM from '@/functions/AES256'
 import Container from '@/components/global/Container'
 import Input from '@/components/global/Input'
 import TextArea from '@/components/global/TextArea'
-import SubFooter from '../../components/curve25519/SubFooter'
+import SubFooter from '@/components/curve25519/SubFooter'
 
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { reverseHexDump } from '@/functions/Hexadecimal'
 
-import PropTypes from 'prop-types'
-
-Curve25519Decrypt.propTypes = {
-  t: PropTypes.func
-}
-
-function Curve25519Decrypt({ t }) {
+const Curve25519Decrypt = ({ t }) => {
   const regexKey = /^(?:[0-9a-fA-F]{62}|[0-9a-fA-F]{64})$/
   const regexHex = /^[0-9A-Fa-f]+$/
 
@@ -128,6 +124,10 @@ function Curve25519Decrypt({ t }) {
       </div>
     </Container>
   )
+}
+
+Curve25519Decrypt.propTypes = {
+  t: PropTypes.func
 }
 
 export default Curve25519Decrypt

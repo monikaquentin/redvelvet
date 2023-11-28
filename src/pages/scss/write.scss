@@ -1,13 +1,13 @@
-section .writinglist-wrapper {
+section .page-write {
   @apply mt-4
   mb-16;
 }
-section .writinglist-wrapper .button-wrapper {
+section .page-write .button-wrapper {
   @apply text-end
   mr-7
   -mt-[43px];
 }
-section .writinglist-wrapper .button-wrapper button {
+section .page-write .button-wrapper button {
   @apply inline-block
   rounded
   text-secondary
@@ -25,7 +25,7 @@ section .writinglist-wrapper .button-wrapper button {
   focus:outline-none
   focus:ring-0;
 }
-section .writinglist-wrapper a {
+section .page-write a {
   @apply text-sm;
   display: block;
   cursor: pointer;
@@ -35,31 +35,31 @@ section .writinglist-wrapper a {
   margin-bottom: 0.5rem;
   border-radius: 7px;
 }
-section .writinglist-wrapper a .title {
+section .page-write a .title {
   flex-grow: 1;
   line-height: 1.5;
   letter-spacing: -0.025rem;
 }
-section .writinglist-wrapper a .date {
+section .page-write a .date {
   color: var(--gray-100) !important;
   flex-shrink: 0;
 }
 
 @media (min-width: 600px) {
-  section .writinglist-wrapper a {
+  section .page-write a {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.25rem;
   }
-  section .writinglist-wrapper a .title {
+  section .page-write a .title {
     line-height: 1.25;
     margin-right: 1rem;
   }
 }
 
 @media (hover: hover) and (pointer: fine) {
-  section .writinglist-wrapper a:hover {
+  section .page-write a:hover {
     background-color: var(--gray-color);
   }
 }

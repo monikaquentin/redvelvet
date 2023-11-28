@@ -1,0 +1,35 @@
+section .page-not-found {
+  @apply grid
+  min-h-full
+  place-items-center
+  bg-white
+  px-6
+  py-24
+  sm:py-32
+  lg:px-8;
+}
+section .page-not-found .wrapper {
+  @apply text-center;
+}
+section .page-not-found .wrapper p {
+  @apply text-base
+  font-semibold;
+}
+section .page-not-found .wrapper h1 {
+  @apply mt-4
+  text-3xl
+  font-bold
+  tracking-tight
+  sm:text-5xl;
+}
+section .page-not-found .wrapper .link-items {
+  @apply mt-10
+  flex
+  items-center
+  justify-center
+  gap-x-6;
+}
+section .page-not-found .wrapper .link-items a {
+  @apply text-sm
+  cursor-pointer;
+}

@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
-export default function Language() {
-  //
+const Language = () => {
   const { i18n } = useTranslation()
   const [locale, set_locale] = useState(i18n.language)
 
@@ -27,3 +26,5 @@ export default function Language() {
     </select>
   )
 }
+
+export default Language

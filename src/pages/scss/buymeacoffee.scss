@@ -1,0 +1,17 @@
+section .page-buy-me-a-coffee hr {
+  @apply mt-4;
+}
+section .page-buy-me-a-coffee p {
+  @apply paragraph
+  mt-4;
+}
+section .page-buy-me-a-coffee p b {
+  @apply block;
+}
+section .page-buy-me-a-coffee p span {
+  @apply block
+  mb-4;
+}
+section .page-buy-me-a-coffee p em {
+  @apply text-gray-100;
+}

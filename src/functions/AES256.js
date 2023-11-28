@@ -3,7 +3,7 @@ class Aes256 {
   static async encrypt(message, sharedKey) {
     try {
       // Define a delimiter for hex strings.
-      const DELIMITER = import.meta.env.VITE_APP_DELIMITER
+      const DELIMITER = import.meta.env.VITE_CIPHER_DELIMITER
       // Convert the shared key to bytes.
       const keyBytes = new Uint8Array(sharedKey.match(/[\da-f]{2}/gi).map((hex) => parseInt(hex, 16)))
       const rawKeyData = keyBytes.buffer
@@ -52,7 +52,7 @@ class Aes256 {
   static async decrypt(cipher, sharedKey) {
     try {
       // Define a delimiter for hex strings.
-      const DELIMITER = import.meta.env.VITE_APP_DELIMITER
+      const DELIMITER = import.meta.env.VITE_CIPHER_DELIMITER
 
       // Convert the shared key to bytes.
       const keyBytes = new Uint8Array(sharedKey.match(/[\da-f]{2}/gi).map((hex) => parseInt(hex, 16)))

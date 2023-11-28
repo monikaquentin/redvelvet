@@ -1,55 +1,49 @@
-import path from 'path'
 import react from '@vitejs/plugin-react'
+import proxy from 'vite-plugin-http2-proxy'
 
-import { dirname } from 'path'
 import { fileURLToPath } from 'url'
 import { defineConfig, loadEnv } from 'vite'
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
-const proxyTarget = 'https://api.redvelvet.me'
 const commonProxy = {
   '/api/': {
-    target: proxyTarget,
-    changeOrigin: true
+    target: 'https://rest-api.redvelvet.me',
+    changeOrigin: true,
+    secure: false,
+    ws: false
   }
-}
-
-function resolve(dir) {
-  return path.join(__dirname, dir)
 }
 
 export default defineConfig(({ mode }) => {
   //
   // eslint-disable-next-line
   const env = loadEnv(mode, process.cwd(), '')
-  const noMock = env.VITE_APP_ENV === 'development' && env.VITE_NOMOCK === 'true'
-  const prod = env.VITE_APP_ENV === 'production'
+  const production = env.VITE_APP_ENV === 'production'
 
   return {
-    base: prod ? '/__vite_base__/' : '/',
-    plugins: [react()],
+    define: {
+      'process.env': env
+    },
+    base: production ? '/__vite_base__/' : '/',
+    plugins: [react(), proxy(commonProxy)],
     resolve: {
       alias: [
         {
           find: '@',
           replacement: fileURLToPath(new URL('./src', import.meta.url))
-        },
-        {
-          find: '@api-mock',
-          replacement: noMock || prod ? resolve('src/empty') : resolve('src/mocks')
         }
       ]
     },
     server: {
       host: env.VITE_APP_HOST,
-      port: parseInt(env.VITE_APP_PORT),
-      proxy: noMock ? commonProxy : null
+      port: parseInt(env.VITE_APP_PORT)
     },
     test: {
       globals: true,
       environment: 'jsdom',
       setupFiles: ['./src/setupTests.ts'],
       coverage: {
+        all: true,
+        enabled: true,
         reporter: ['text', 'html']
       }
     }
