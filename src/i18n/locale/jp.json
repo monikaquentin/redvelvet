@@ -5,32 +5,37 @@
         "home": "RedVelvet",
         "write": {
           "title": "書く",
+          "pinned": "固定された",
           "latest": "最新",
           "oldest": "最古"
         },
         "paper": {
           "lists": [
             {
-              "title": "ウサギの穴を越えて自由を求めて: 論文",
+              "title": "狭いスペースのかくれんぼの芸術: 小さな種",
+              "subtitle": "2023 年 12 月 4 日",
+              "url": "/write/tinyseed",
+              "date": "Dec 2023",
+              "repo": "tinyseed.io",
+              "repo_link": "https://tinyseed.io",
+              "warning": "このサイトから出るデータはまったくありません。 すべてがマシン内にあり、キューに入れられたすべてのデータは処理後すぐに削除されます。",
+              "read_more": "続きを読む",
+              "close": "近い",
+              "content": "Tinyseed を使用すると、ウォレットのシード フレーズまたは Shamir の秘密共有をバックアップできます。 これにより、ビットコイン、イーサリアム、NFT を損失から保護できます。",
+              "resolution": "発見する, "
+            },
+            {
+              "title": "ウサギの穴を超えた自由を求めて: テーゼ I",
               "subtitle": "2023 年 9 月 15 日",
               "url": "/write/thesis",
               "date": "2023 年 9 月",
-              "repo": null,
-              "repo_link": null,
-              "warning": "計画段階では",
-              "read_more": null,
-              "close": null,
-              "content": null,
-              "resolution": null,
-              "resolution_content": null
+              "warning": "計画段階では"
             },
             {
               "title": "ウサギの穴に飛び込む: コンピューター サイエンスの視点",
               "subtitle": "2023 年 9 月 12日",
               "url": "/write/perspective-of-computer-science",
               "date": "2023 年 9 月",
-              "repo": null,
-              "repo_link": null,
               "warning": "警告: これらのメモには、講義におけるコンピューター サイエンスに関する意見、個人的な経験、極端な視点が含まれています。 当事者を貶めたり気分を害したりすることを目的としたものではありません。 何も考えずに完全に消化しないでください。 「続きを読む」を押すと理解したものとみなされます。",
               "read_more": "続きを読む",
               "close": "閉じる",
@@ -40,17 +45,22 @@
             },
             {
               "title": "咲く赤いバラ: はじめに",
-              "subtitle": "2023 年 8 月 7 日",
+              "subtitle": "2023 年 2 月 24 日\n最終更新日 2023 年 12 月 12 日",
               "url": "/write/an-introduction",
-              "date": "2023 年 8 月",
-              "repo": "GitHub",
-              "repo_link": "https://github.com/monikaquentin",
-              "warning": null,
-              "read_more": null,
-              "close": null,
-              "content": "JavaScriptをメイン言語としてソフトウェアを書いています。",
-              "resolution": null,
-              "resolution_content": null
+              "date": "2023 年 2 月",
+              "github_link": "https://github.com/monikaquentin",
+              "gitlab_link": "https://gitlab.com/monikaquentin",
+              "linkedin_link": "https://linkedin.com/in/rasetiansyah",
+              "about_me": "私について？",
+              "about_me_content": "JavaScriptをメイン言語としてソフトウェアを書いています。",
+              "about_site": "このサイトについて?",
+              "about_site_content": "これは私が暇なときに開発した個人のサイトです。 開発は 2023 年の 2 月か 3 月に始まり、自分の書いた作品や作成したソフトウェアをホストするプラットフォームが欲しいと考えていました。 ReactJS を利用し、デフォルトの NGINX ページからインスピレーションを得て、できるだけシンプルにしています。 現在 (最新の公開時)、このサイトにはバックエンドがまったくなく、オープン ソースです。\n\nこのサイトのすべてのソフトウェアは、一般公開向けに設計上透明で安全であることを保証します。",
+              "about_darknet": "隠れたサービス (TOR)",
+              "about_darknet_content": "このサイトはダークネット上でもオンラインになっており、JavaScript を有効にしてアクセスできます ",
+              "about_darknet_link": {
+                "label": "ここ",
+                "link": "http://unicorn465jakmpxhawaumyujt52wess5qhal6ng3dcm32uprpzy33qd.onion"
+              }
             }
           ]
         },
@@ -124,7 +134,13 @@
         "bmac": {
           "title": "コーヒーを買ってきて",
           "last_update": "最終更新日: 2023 年 11 月 27 日",
-          "greeting": "\n\nすてきな一日を！"
+          "greeting": "\n\nすてきな一日を！",
+          "currency": {
+            "btc": "Bitcoin (Taproot-Bech32)",
+            "xmr": "Monero (XMR)",
+            "sc": "Ethereum アタウ Smart Chain (ERC20/BEP20)",
+            "trx": "Tron (TRC20)"
+          }
         },
         "notfound": {
           "title": "見つかりません",

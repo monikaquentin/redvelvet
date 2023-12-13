@@ -5,32 +5,37 @@
         "home": "RedVelvet",
         "write": {
           "title": "Menulis",
+          "pinned": "Disematkan",
           "latest": "Terbaru",
           "oldest": "Terlama"
         },
         "paper": {
           "lists": [
             {
-              "title": "Mencari Kebebasan Melampaui Lubang Kelinci: Tugas Akhir",
+              "title": "Seni Petak Umpet di Ruang Kecil: Tinyseed",
+              "subtitle": "4 Desember, 2023",
+              "url": "/write/tinyseed",
+              "date": "Des 2023",
+              "repo": "tinyseed.io",
+              "repo_link": "https://tinyseed.io",
+              "warning": "Sama sekali tidak ada data yang keluar dari situs ini. Semuanya ada di mesin Anda, semua data yang antri di dalamnya segera dihapus setelah diproses.",
+              "read_more": "Baca selengkapnya",
+              "close": "Tutup",
+              "content": "Tinyseed memungkinkan Anda untuk mencadangkan frase benih atau bagian rahasia Shamir di dompet Anda. Ini memungkinkan Anda melindungi Bitcoin, Ethereum, dan NFT dari kerugian.",
+              "resolution": "Menemukan, "
+            },
+            {
+              "title": "Mencari Kebebasan Melampaui Lubang Kelinci: Tugas Akhir I",
               "subtitle": "September 15, 2023",
               "url": "/write/thesis",
               "date": "Sep 2023",
-              "repo": null,
-              "repo_link": null,
-              "warning": "Dalam tahap perencanaan",
-              "read_more": null,
-              "close": null,
-              "content": null,
-              "resolution": null,
-              "resolution_content": null
+              "warning": "Dalam tahap perencanaan"
             },
             {
               "title": "Menyelami Lubang Kelinci: Perspektif Ilmu Komputer",
               "subtitle": "12 September 2023",
               "url": "/write/perspective-of-computer-science",
               "date": "Sep 2023",
-              "repo": null,
-              "repo_link": null,
               "warning": "Peringatan: Catatan ini berisi opini, pengalaman pribadi, serta sudut pandang yang ekstrem tentang ilmu komputer dalam konteks perkuliahan. Tidak bermaksud untuk merendahkan atau menyinggung pihak mana pun; harap jangan mencernanya secara mentah-mentah tanpa pertimbangan lebih lanjut. Dengan menekan \"Baca selengkapnya\" anda telah dianggap paham.",
               "read_more": "Baca selengkapnya",
               "close": "Tutup",
@@ -40,17 +45,22 @@
             },
             {
               "title": "Bunga Mawar Merah yang Mekar: Pengantar",
-              "subtitle": "7 Agustus 2023",
+              "subtitle": "24 Februari 2023\nTerakhir diperbarui pada 12 Desember 2023",
               "url": "/write/an-introduction",
-              "date": "Agu 2023",
-              "repo": "GitHub",
-              "repo_link": "https://github.com/monikaquentin",
-              "warning": null,
-              "read_more": null,
-              "close": null,
-              "content": "Saya menulis perangkat lunak, JavaScript sebagai bahasa utama.",
-              "resolution": null,
-              "resolution_content": null
+              "date": "Feb 2023",
+              "github_link": "https://github.com/monikaquentin",
+              "gitlab_link": "https://gitlab.com/monikaquentin",
+              "linkedin_link": "https://linkedin.com/in/rasetiansyah",
+              "about_me": "Tentang Saya?",
+              "about_me_content": "Saya menulis perangkat lunak, JavaScript sebagai bahasa utama.",
+              "about_site": "Tentang Situs Ini?",
+              "about_site_content": "Ini adalah situs pribadi yang saya kembangkan di waktu luang saya. Pengembangan dimulai pada bulan Februari/Maret 2023 ketika saya ingin memiliki platform untuk menampung karya tulis saya dan beberapa perangkat lunak yang saya buat. Memanfaatkan ReactJS dan membuatnya sesederhana mungkin, terinspirasi dari halaman default NGINX. Saat ini (publikasi terakhir) situs ini tidak memiliki Back-End sama sekali dan situs ini bersifat open source.\n\nSaya memastikan bahwa semua perangkat lunak di situs ini transparan dan aman berdasarkan desain untuk penggunaan umum.",
+              "about_darknet": "Layanan Tersembunyi (TOR)",
+              "about_darknet_content": "Situs ini juga online di darknet, Anda dapat mengaksesnya dengan JavaScript diaktifkan di ",
+              "about_darknet_link": {
+                "label": "sini",
+                "link": "http://unicorn465jakmpxhawaumyujt52wess5qhal6ng3dcm32uprpzy33qd.onion"
+              }
             }
           ]
         },
@@ -124,7 +134,13 @@
         "bmac": {
           "title": "Belikan Saya Kopi",
           "last_update": "Terakhir diperbarui pada 27 November 2023",
-          "greeting": "\n\nSemoga harimu menyenangkan!"
+          "greeting": "\n\nSemoga harimu menyenangkan!",
+          "currency": {
+            "btc": "Bitcoin (Taproot-Bech32)",
+            "xmr": "Monero (XMR)",
+            "sc": "Ethereum atau Smart Chain (ERC20/BEP20)",
+            "trx": "Tron (TRC20)"
+          }
         },
         "notfound": {
           "title": "Tidak ditemukan",

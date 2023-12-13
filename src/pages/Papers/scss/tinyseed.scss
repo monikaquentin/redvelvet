@@ -1,0 +1,17 @@
+section .page-paper-index .paper-tinyseed .content-section {
+  @apply paragraph
+  text-justify
+  mt-4;
+}
+section .page-paper-index .paper-tinyseed .content-section .readmore-button {
+  @apply paragraph
+  cursor-pointer
+  text-justify
+  mt-4;
+  @apply text-secondary #{!important};
+}
+section .page-paper-index .paper-tinyseed .content-margin {
+  @apply paragraph
+  text-justify
+  mt-4;
+}

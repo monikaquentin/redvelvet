@@ -1,22 +1,35 @@
 import Home from '@/pages/Home'
 import Write from '@/pages/Write'
-import Paper from '@/pages/Paper'
+import Paper from '@/pages/Papers/Index'
 import Curve25519Single from '@/pages/Curve25519/single'
 import Curve25519Multiple from '@/pages/Curve25519/multiple'
 import Curve25519Decrypt from '@/pages/Curve25519/decrypt'
 import BuyMeACoffee from '@/pages/BuyMeACoffee'
 import NotFound from '@/pages/NotFound'
 
+import { ConfigProvider as Ant } from 'antd'
 import { useTranslation } from 'react-i18next'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+const style = {
+  token: {
+    colorBgBase: '#fdfdfd',
+    colorBgLayout: '#f5f5f5',
+    colorPrimary: '#7f2a3c',
+    colorLink: '#1b96a7',
+    colorTextPlaceholder: '#9ca3af',
+    colorBgSpotlight: '#001529',
+    colorWhite: '#f9f9f9'
+  }
+}
 
 export const Endpoint = () => {
   const { t } = useTranslation()
   const papers = []
   const RoutePapers = []
-  t('pages.paper.lists', { returnObjects: true }).map((data, index) => {
-    papers.push(JSON.parse(JSON.stringify(data)))
-    RoutePapers.push(<Route key={index} path={data.url} name={data.title} element={<Paper data={data} />} />)
+  t('pages.paper.lists', { returnObjects: true }).map((redL, index) => {
+    papers.push(JSON.parse(JSON.stringify(redL)))
+    RoutePapers.push(<Route key={index} path={redL.url} name={redL.title} element={<Paper redL={redL} />} />)
   })
   return (
     <Routes>
@@ -35,7 +48,9 @@ export const Endpoint = () => {
 export default function App() {
   return (
     <BrowserRouter>
-      <Endpoint />
+      <Ant theme={style}>
+        <Endpoint />
+      </Ant>
     </BrowserRouter>
   )
 }

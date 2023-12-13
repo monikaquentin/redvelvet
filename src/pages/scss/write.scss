@@ -1,20 +1,38 @@
+@import url('@/pages/Papers/scss/index.scss');
+
 section .page-write {
   @apply mt-4
-  mb-16;
+  mb-20;
 }
 section .page-write .button-wrapper {
   @apply text-end
-  mr-7
-  -mt-[43px];
+  -mt-[55px];
 }
-section .page-write .button-wrapper button {
+section .page-write .button-wrapper .button-pinned {
   @apply inline-block
   rounded
-  text-secondary
+  text-tertiary
   uppercase
   mb-2
   px-1.5
   pb-[4px]
+  pt-[4px]
+  text-sm
+  font-thin
+  leading-normal
+  transition
+  duration-150
+  ease-in-out
+  focus:outline-none
+  focus:ring-0
+  cursor-default;
+}
+section .page-write .button-wrapper .button-sort {
+  @apply inline-block
+  rounded
+  text-secondary
+  uppercase
+  px-1.5
   pt-[4px]
   text-sm
   font-thin
@@ -29,11 +47,11 @@ section .page-write a {
   @apply text-sm;
   display: block;
   cursor: pointer;
-  padding: 0.75rem 2rem;
+  padding: 0.75rem 0.45rem 0rem 2rem;
   margin-left: -2rem;
   transition: background-color 0.2s;
   margin-bottom: 0.5rem;
-  border-radius: 7px;
+  padding-bottom: 11px;
 }
 section .page-write a .title {
   flex-grow: 1;

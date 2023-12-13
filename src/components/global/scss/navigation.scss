@@ -19,8 +19,8 @@ section .nav-wrapper .item:last-child {
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
 }
-section .nav-wrapper .item--active {
-  opacity: 0.25;
+section .nav-wrapper .item--active svg {
+  color: var(--secondary-color);
 }
 @media (min-width: 992px) {
   section .nav-wrapper .item {

@@ -1,7 +1,12 @@
+section .footer-wrapper {
+  background: url('@/assets/png/shredder.png') no-repeat;
+  min-height: 96px;
+}
 section .footer-wrapper hr {
   @apply border-t
   mt-4
-  max-w-[170px];
+  max-w-[170px]
+  opacity-0;
 }
 section .footer-wrapper h2 {
   @apply text-sm

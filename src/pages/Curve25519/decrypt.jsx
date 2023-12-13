@@ -88,7 +88,6 @@ const Curve25519Decrypt = ({ t }) => {
   return (
     <Container header={{ title: 'Curve25519 | AES-256-GCM', subtitle: t('pages.curve25519.decrypt.subtitle') }}>
       <div className="page-curve25519-wrapper">
-        <hr />
         <p className="warning-paragraph mt-4">{t('pages.curve25519.decrypt.description')}</p>
         <Input attr={sharedKeyInput_attr} />
         {!state.keyLocked ? (

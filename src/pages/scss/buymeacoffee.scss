@@ -5,12 +5,16 @@ section .page-buy-me-a-coffee p {
   @apply paragraph
   mt-4;
 }
-section .page-buy-me-a-coffee p b {
-  @apply block;
+section .page-buy-me-a-coffee p button {
+  @apply mb-2.5;
 }
-section .page-buy-me-a-coffee p span {
-  @apply block
-  mb-4;
+section .page-buy-me-a-coffee p .qrcode {
+  @apply flex
+  items-center
+  mt-1.5;
+}
+section .page-buy-me-a-coffee p .qrcode .space {
+  @apply mr-2.5;
 }
 section .page-buy-me-a-coffee p em {
   @apply text-gray-100;

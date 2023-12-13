@@ -3,6 +3,9 @@
   mx-auto
   p-3;
 }
+.container section .content-wrapper hr {
+  @apply mt-4;
+}
 .container section .content-wrapper {
   @apply mt-64;
 }

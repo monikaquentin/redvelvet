@@ -5,32 +5,37 @@
         "home": "RedVelvet",
         "write": {
           "title": "Писать",
+          "pinned": "Закреплено",
           "latest": "Последние",
           "oldest": "Старейшие"
         },
         "paper": {
           "lists": [
             {
-              "title": "В поисках свободы за пределами кроличьей норы: диссертация",
+              "title": "Искусство пряток в маленьких помещениях: Tinyseed",
+              "subtitle": "4 декабря 2023 г.",
+              "url": "/write/tinyseed",
+              "date": "декабрь 2023 г.",
+              "repo": "tinyseed.io",
+              "repo_link": "https://tinyseed.io",
+              "warning": "Абсолютно никакие данные не покидают этот сайт. Все находится на вашей машине, все данные в очереди немедленно удаляются после обработки.",
+              "read_more": "Читать далее",
+              "close": "Закрывать",
+              "content": "Tinyseed позволяет вам создать резервную копию исходной фразы или секретных акций Шамира в вашем кошельке. Это позволяет защитить Bitcoin, Ethereum и NFT от потери.",
+              "resolution": "Обнаружить, "
+            },
+            {
+              "title": "В поисках свободы за пределами кроличьей норы: Тезис I",
               "subtitle": "15 сентября 2023 года",
               "url": "/write/thesis",
               "date": "Сентябрь 2023",
-              "repo": null,
-              "repo_link": null,
-              "warning": "На этапе планирования",
-              "read_more": null,
-              "close": null,
-              "content": null,
-              "resolution": null,
-              "resolution_content": null
+              "warning": "На этапе планирования"
             },
             {
               "title": "Ныряние в кроличью нору: взгляд на информатику",
               "subtitle": "12 сентября 2023 года",
               "url": "/write/perspective-of-computer-science",
               "date": "Сентябрь 2023",
-              "repo": null,
-              "repo_link": null,
               "warning": "Предупреждение: эти заметки содержат мнения, личный опыт и крайние точки зрения на информатику в контексте лекций. Не предназначено для унижения или оскорбления какой-либо стороны; пожалуйста, не переваривайте это полностью без дальнейшего рассмотрения. Нажимая «Читать далее», вы считаете, что поняли.",
               "read_more": "Читать далее",
               "close": "Закрыть",
@@ -40,17 +45,22 @@
             },
             {
               "title": "Цветущие красные розы: введение",
-              "subtitle": "7 августа 2023 года",
+              "subtitle": "24 февраля 2023 г.\nПоследнее обновление: 12 декабря 2023 г.",
               "url": "/write/an-introduction",
-              "date": "Авг 2023",
-              "repo": "GitHub",
-              "repo_link": "https://github.com/monikaquentin",
-              "warning": null,
-              "read_more": null,
-              "close": null,
-              "content": "Я пишу программное обеспечение, JavaScript в качестве основного языка.",
-              "resolution": null,
-              "resolution_content": null
+              "date": "февраль 2023 г.",
+              "github_link": "https://github.com/monikaquentin",
+              "gitlab_link": "https://gitlab.com/monikaquentin",
+              "linkedin_link": "https://linkedin.com/in/rasetiansyah",
+              "about_me": "Обо мне?",
+              "about_me_content": "Я пишу программное обеспечение, JavaScript в качестве основного языка.",
+              "about_site": "Об этом сайте?",
+              "about_site_content": "Это личный сайт, который я разработал в свободное время. Разработка началась в феврале/марте 2023 года, когда я захотел иметь платформу для размещения своих письменных работ и созданного мной программного обеспечения. Используем ReactJS и делаем его максимально простым, вдохновленным страницей NGINX по умолчанию. В настоящее время (последняя публикация) на этом сайте вообще нет серверной части, и сайт имеет открытый исходный код.\n\nЯ гарантирую, что все программное обеспечение на этом сайте является прозрачным и безопасным для публичного использования.",
+              "about_darknet": "Скрытый сервис (TOR)",
+              "about_darknet_content": "Этот сайт также доступен в даркнете, вы можете получить к нему доступ с включенным JavaScript ",
+              "about_darknet_link": {
+                "label": "здесь",
+                "link": "http://unicorn465jakmpxhawaumyujt52wess5qhal6ng3dcm32uprpzy33qd.onion"
+              }
             }
           ]
         },
@@ -124,7 +134,13 @@
         "bmac": {
           "title": "Купи мне кофе",
           "last_update": "Последнее обновление: 27 ноября 2023 г.",
-          "greeting": "\n\nХорошего дня!"
+          "greeting": "\n\nХорошего дня!",
+          "currency": {
+            "btc": "Bitcoin (Taproot-Bech32)",
+            "xmr": "Monero (XMR)",
+            "sc": "Ethereum или Smart Chain (ERC20/BEP20)",
+            "trx": "Tron (TRC20)"
+          }
         },
         "notfound": {
           "title": "Не найдено",

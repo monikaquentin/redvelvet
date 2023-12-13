@@ -1,20 +1,22 @@
-import HomeIcon from '@/components/default/icons/HomeIcon'
-import PencilIcon from '@/components/default/icons/PencilIcon'
-
 import Language from '@/components/global/Language'
 
 import { Link, useLocation } from 'react-router-dom'
+import { HomeOutlined, EditOutlined, CoffeeOutlined } from '@ant-design/icons'
 
 const Navigation = () => {
-  const pathname = useLocation().pathname
+  const location = useLocation()
+  const currentPath = location.pathname.match(/\/([^/]+)$/)?.[1]
 
   return (
     <nav className="nav-wrapper">
-      <Link className={`item ${pathname === '/' ? 'item--active' : ''}`} title="Home" to="/">
-        <HomeIcon />
+      <Link className={`item ${!currentPath ? 'item--active' : ''}`} title="Home" to="/">
+        <HomeOutlined />
       </Link>
-      <Link className={`item ${pathname === '/write' ? 'item--active' : ''}`} title="Write" to="/write">
-        <PencilIcon />
+      <Link className={`item ${currentPath === 'write' ? 'item--active' : ''}`} title="Write" to="/write">
+        <EditOutlined />
+      </Link>
+      <Link className={`item ${currentPath === 'bmac' ? 'item--active' : ''}`} title="Buy Me a Coffee" to="/bmac">
+        <CoffeeOutlined />
       </Link>
       <Language />
     </nav>

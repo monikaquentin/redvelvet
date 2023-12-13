@@ -5,32 +5,37 @@
         "home": "RedVelvet",
         "write": {
           "title": "Écrire",
+          "pinned": "Épinglé",
           "latest": "Plus récent",
           "oldest": "Le plus ancien"
         },
         "paper": {
           "lists": [
             {
-              "title": "À la recherche de la liberté au-delà du terrier du lapin : thèse",
-              "subtitle": "15 septembre 2023",
+              "title": "L'art de cache-cache dans les petits espaces : Tinyseed",
+              "subtitle": "4 Décembre 2023",
+              "url": "/write/tinyseed",
+              "date": "Déc 2023",
+              "repo": "tinyseed.io",
+              "repo_link": "https://tinyseed.io",
+              "warning": "Absolument aucune donnée ne quitte ce site. Tout est dans votre machine, toutes les données en file d'attente sont immédiatement purgées après avoir été traitées.",
+              "read_more": "En savoir plus",
+              "close": "Fermer",
+              "content": "Tinyseed vous permet de sauvegarder la phrase de départ ou les partages secrets de Shamir sur votre portefeuille. Il vous permet de protéger Bitcoin, Ethereum et NFT contre la perte.",
+              "resolution": "Découvrir, "
+            },
+            {
+              "title": "À la recherche de la liberté au-delà du terrier du lapin : Thèse I",
+              "subtitle": "15 Septembre 2023",
               "url": "/write/thesis",
               "date": "Sep 2023",
-              "repo": null,
-              "repo_link": null,
-              "warning": "En phase de planification",
-              "read_more": null,
-              "close": null,
-              "content": null,
-              "resolution": null,
-              "resolution_content": null
+              "warning": "En phase de planification"
             },
             {
               "title": "Plonger dans le terrier du lapin : perspective de l'informatique",
-              "subtitle": "12 septembre 2023",
+              "subtitle": "12 Septembre 2023",
               "url": "/write/perspective-of-computer-science",
               "date": "Sep 2023",
-              "repo": null,
-              "repo_link": null,
               "warning": "Avertissement : ces notes contiennent des opinions, des expériences personnelles et des points de vue extrêmes sur l'informatique dans un contexte magistral. Non destiné à rabaisser ou offenser une quelconque partie; veuillez ne pas le digérer complètement sans autre réflexion. En appuyant sur « Lire la suite », vous êtes censé comprendre.",
               "read_more": "En savoir plus",
               "close": "Fermer",
@@ -40,17 +45,22 @@
             },
             {
               "title": "Roses rouges en fleurs : une introduction",
-              "subtitle": "7 août 2023",
+              "subtitle": "24 février 2023\nDernière mise à jour le 12 décembre 2023",
               "url": "/write/an-introduction",
-              "date": "Août 2023",
-              "repo": "GitHub",
-              "repo_link": "https://github.com/monikaquentin",
-              "warning": null,
-              "read_more": null,
-              "close": null,
-              "content": "J'écris des logiciels, JavaScript comme langage principal.",
-              "resolution": null,
-              "resolution_content": null
+              "date": "fév 2023",
+              "github_link": "https://github.com/monikaquentin",
+              "gitlab_link": "https://gitlab.com/monikaquentin",
+              "linkedin_link": "https://linkedin.com/in/rasetiansyah",
+              "about_me": "Sur moi?",
+              "about_me_content": "J'écris des logiciels, JavaScript comme langage principal.",
+              "about_site": "À propos de ce site ?",
+              "about_site_content": "Il s'agit d'un site personnel que j'ai développé pendant mon temps libre. Le développement a commencé en février/mars 2023 lorsque je souhaitais disposer d'une plateforme pour héberger mes travaux écrits et certains logiciels que j'avais créés. Utiliser ReactJS et le rendre aussi simple que possible, inspiré de la page NGINX par défaut. Actuellement (dernière publication), ce site n'a aucun back-end et le site est open source.\n\nJe m'assure que tous les logiciels de ce site sont transparents et sûrs par conception pour un usage public.",
+              "about_darknet": "Service caché (TOR)",
+              "about_darknet_content": "Ce site est également en ligne sur le darknet, vous pouvez y accéder avec JavaScript activé ",
+              "about_darknet_link": {
+                "label": "ici",
+                "link": "http://unicorn465jakmpxhawaumyujt52wess5qhal6ng3dcm32uprpzy33qd.onion"
+              }
             }
           ]
         },
@@ -124,7 +134,13 @@
         "bmac": {
           "title": "Achetez-moi un café",
           "last_update": "Dernière mise à jour le 27 novembre 2023",
-          "greeting": "\n\nPasse une bonne journée!"
+          "greeting": "\n\nPasse une bonne journée!",
+          "currency": {
+            "btc": "Bitcoin (Taproot-Bech32)",
+            "xmr": "Monero (XMR)",
+            "sc": "Ethereum ou Smart Chain (ERC20/BEP20)",
+            "trx": "Tron (TRC20)"
+          }
         },
         "notfound": {
           "title": "Pas trouvé",

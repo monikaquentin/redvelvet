@@ -200,7 +200,6 @@ const Curve25519Multiple = ({ t }) => {
   return (
     <Container header={{ title: 'Curve25519 | AES-256-GCM', subtitle: t('pages.curve25519.multiple.subtitle') }}>
       <div className="page-curve25519-wrapper">
-        <hr />
         <p className="warning-paragraph mt-4">
           {t('pages.curve25519.multiple.description')}&nbsp;
           <span>

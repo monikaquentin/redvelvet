@@ -5,32 +5,37 @@
         "home": "RedVelvet",
         "write": {
           "title": "Schreiben",
+          "pinned": "Angepinnt",
           "latest": "Neueste",
           "oldest": "Älteste"
         },
         "paper": {
           "lists": [
             {
-              "title": "Auf der Suche nach Freiheit jenseits des Kaninchenbaus: These",
+              "title": "Kunst des Versteckens in kleinen Räumen: Tinyseed",
+              "subtitle": "4. Dezember 2023",
+              "url": "/write/tinyseed",
+              "date": "Dec 2023",
+              "repo": "tinyseed.io",
+              "repo_link": "https://tinyseed.io",
+              "warning": "Es gibt absolut keine Daten, die diese Website verlassen. Alles befindet sich auf Ihrem Computer, alle darauf befindlichen Daten werden nach der Verarbeitung sofort gelöscht.",
+              "read_more": "Mehr lesen",
+              "close": "Schließen",
+              "content": "Mit Tinyseed können Sie die Seed-Phrase oder Shamirs geheime Anteile Ihrer Wallet sichern. Damit können Sie Bitcoin, Ethereum und NFT vor Verlust schützen.",
+              "resolution": "Entdecken, "
+            },
+            {
+              "title": "Auf der Suche nach Freiheit jenseits des Kaninchenbaus: These I",
               "subtitle": "15. September 2023",
               "url": "/write/thesis",
               "date": "Sep 2023",
-              "repo": null,
-              "repo_link": null,
-              "warning": "In der Planungsphase",
-              "read_more": null,
-              "close": null,
-              "content": null,
-              "resolution": null,
-              "resolution_content": null
+              "warning": "In der Planungsphase"
             },
             {
               "title": "Eintauchen in den Kaninchenbau: Perspektive der Informatik",
               "subtitle": "12. September 2023",
               "url": "/write/perspective-of-computer-science",
               "date": "Sep 2023",
-              "repo": null,
-              "repo_link": null,
               "warning": "Achtung: Diese Notizen enthalten Meinungen, persönliche Erfahrungen und extreme Standpunkte zur Informatik im Vorlesungskontext. Es ist nicht dazu gedacht, eine Partei zu erniedrigen oder zu beleidigen; bitte verdauen Sie es nicht ohne weitere Überlegung. Wenn Sie auf „Weiterlesen“ klicken, erklären Sie sich damit einverstanden.",
               "read_more": "Mehr lesen",
               "close": "Schließen",
@@ -40,17 +45,22 @@
             },
             {
               "title": "Blühende rote Rosen: Eine Einführung",
-              "subtitle": "7. August 2023",
+              "subtitle": "24. Februar 2023\nLetzte Aktualisierung am 12. Dezember 2023",
               "url": "/write/an-introduction",
-              "date": "Aug 2023",
-              "repo": "GitHub",
-              "repo_link": "https://github.com/monikaquentin",
-              "warning": null,
-              "read_more": null,
-              "close": null,
-              "content": "Ich schreibe Software, JavaScript ist die Hauptsprache.",
-              "resolution": null,
-              "resolution_content": null
+              "date": "Feb 2023",
+              "github_link": "https://github.com/monikaquentin",
+              "gitlab_link": "https://gitlab.com/monikaquentin",
+              "linkedin_link": "https://linkedin.com/in/rasetiansyah",
+              "about_me": "Über mich?",
+              "about_me_content": "Ich schreibe Software, JavaScript ist die Hauptsprache.",
+              "about_site": "Über diese Site?",
+              "about_site_content": "Dies ist eine persönliche Website, die ich in meiner Freizeit entwickelt habe. Die Entwicklung begann im Februar/März 2023, als ich eine Plattform haben wollte, auf der ich meine schriftlichen Arbeiten und einige von mir erstellte Software hosten konnte. ReactJS verwenden und es so einfach wie möglich gestalten, inspiriert von der Standard-NGINX-Seite. Derzeit (letzte Veröffentlichung) verfügt diese Website überhaupt über kein Back-End und ist Open Source.\n\nIch stelle sicher, dass die gesamte Software auf dieser Website transparent und sicher für die öffentliche Nutzung ist.",
+              "about_darknet": "Versteckter Dienst (TOR)",
+              "about_darknet_content": "Diese Seite ist auch im Darknet online, Sie können sie mit aktiviertem JavaScript aufrufen ",
+              "about_darknet_link": {
+                "label": "Hier",
+                "link": "http://unicorn465jakmpxhawaumyujt52wess5qhal6ng3dcm32uprpzy33qd.onion"
+              }
             }
           ]
         },
@@ -124,7 +134,13 @@
         "bmac": {
           "title": "Kauf mir einen Kaffee",
           "last_update": "Zuletzt aktualisiert am 27. November 2023",
-          "greeting": "\n\nIch wünsche ihnen einen wunderbaren Tag!"
+          "greeting": "\n\nIch wünsche ihnen einen wunderbaren Tag!",
+          "currency": {
+            "btc": "Bitcoin (Taproot-Bech32)",
+            "xmr": "Monero (XMR)",
+            "sc": "Ethereum oder Smart Chain (ERC20/BEP20)",
+            "trx": "Tron (TRC20)"
+          }
         },
         "notfound": {
           "title": "Nicht gefunden",

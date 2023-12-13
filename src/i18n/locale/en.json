@@ -5,32 +5,37 @@
         "home": "RedVelvet",
         "write": {
           "title": "Write",
+          "pinned": "Pinned",
           "latest": "Latest",
           "oldest": "Oldest"
         },
         "paper": {
           "lists": [
             {
-              "title": "Seeking Freedom Beyond the Rabbit Hole: Thesis",
+              "title": "Art of Hide and Seek in Small Spaces: Tinyseed",
+              "subtitle": "December 4, 2023",
+              "url": "/write/tinyseed",
+              "date": "Dec 2023",
+              "repo": "tinyseed.io",
+              "repo_link": "https://tinyseed.io",
+              "warning": "There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
+              "read_more": "Read More",
+              "close": "Close",
+              "content": "Tinyseed enables you to back up the seed phrase or Shamir's secret shares of your wallet. It allows you to protect Bitcoin, Ethereum and NFT from loss.",
+              "resolution": "Discover, "
+            },
+            {
+              "title": "Seeking Freedom Beyond the Rabbit Hole: Thesis I",
               "subtitle": "September 15, 2023",
-              "url": "/write/thesis",
+              "url": "/write/thesis-i",
               "date": "Sep 2023",
-              "repo": null,
-              "repo_link": null,
-              "warning": "In the planning stage",
-              "read_more": null,
-              "close": null,
-              "content": null,
-              "resolution": null,
-              "resolution_content": null
+              "warning": "In the planning stage"
             },
             {
               "title": "Diving into the Rabbit Hole: Perspective of Computer Science",
               "subtitle": "September 12, 2023",
               "url": "/write/perspective-of-computer-science",
               "date": "Sep 2023",
-              "repo": null,
-              "repo_link": null,
               "warning": "Warning: These notes contain opinions, personal experiences, and extreme points of view about computer science in a lecture context. Not intended to demean or offend any party; please do not digest it completely without further consideration. By pressing \"Read more\" you are deemed to understand.",
               "read_more": "Read More",
               "close": "Close",
@@ -40,17 +45,22 @@
             },
             {
               "title": "Blooming Red Roses: An Introduction",
-              "subtitle": "August 7, 2023",
+              "subtitle": "February 24, 2023\nLast updated on December 12, 2023",
               "url": "/write/an-introduction",
-              "date": "Aug 2023",
-              "repo": "GitHub",
-              "repo_link": "https://github.com/monikaquentin",
-              "warning": null,
-              "read_more": null,
-              "close": null,
-              "content": "I write software, JavaScript as the main language.",
-              "resolution": null,
-              "resolution_content": null
+              "date": "Feb 2023",
+              "github_link": "https://github.com/monikaquentin",
+              "gitlab_link": "https://gitlab.com/monikaquentin",
+              "linkedin_link": "https://linkedin.com/in/rasetiansyah",
+              "about_me": "About Me?",
+              "about_me_content": "I write software, JavaScript as the main language.",
+              "about_site": "About This Site?",
+              "about_site_content": "This is a personal site I developed in my spare time. Development started in February/March 2023 when I wanted to have a platform to host my written work and some software I created. Utilizing ReactJS and making it as simple as possible, inspired by the default NGINX page. Currently (last publication) this site has no Back-End at all and the site is open source.\n\nI ensure that all software on this site is transparent and safe by design for public use.",
+              "about_darknet": "Hidden Service (TOR)",
+              "about_darknet_content": "This site is also online on the darknet, you can access it with JavaScript enabled ",
+              "about_darknet_link": {
+                "label": "here",
+                "link": "http://unicorn465jakmpxhawaumyujt52wess5qhal6ng3dcm32uprpzy33qd.onion"
+              }
             }
           ]
         },
@@ -124,7 +134,13 @@
         "bmac": {
           "title": "Buy Me a Coffee",
           "last_update": "Last updated on November 27, 2023",
-          "greeting": "\n\nHave a great day!"
+          "greeting": "\n\nHave a great day!",
+          "currency": {
+            "btc": "Bitcoin (Taproot-Bech32)",
+            "xmr": "Monero (XMR)",
+            "sc": "Ethereum or Smart Chain (ERC20/BEP20)",
+            "trx": "Tron (TRC20)"
+          }
         },
         "notfound": {
           "title": "Not Found",

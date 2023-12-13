@@ -158,7 +158,6 @@ const Curve25519Single = ({ t }) => {
   return (
     <Container header={{ title: 'Curve25519 | AES-256-GCM', subtitle: t('pages.curve25519.single.subtitle') }}>
       <div className="page-curve25519-wrapper">
-        <hr />
         <p className="warning-paragraph mt-4">
           {t('pages.curve25519.single.description')}&nbsp;
           <span>

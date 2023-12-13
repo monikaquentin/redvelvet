@@ -1,6 +1,6 @@
 {
   "name": "redvelvet",
-  "version": "v0.1.0",
+  "version": "v0.2.1",
   "description": "Home",
   "type": "module",
   "private": false,
@@ -38,7 +38,9 @@
     "test:coverage": "vitest --coverage"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
     "@reduxjs/toolkit": "^1.9.7",
+    "antd": "^5.11.5",
     "elliptic": "^6.5.4",
     "i18next": "^23.2.11",
     "i18next-browser-languagedetector": "^7.1.0",
