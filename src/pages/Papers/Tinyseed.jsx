@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 
-import xmrseed from '@/components/default/seed/xmr/XmrSeed'
-import bip39seed from '@/components/default/seed/bip39/Bip39Seed'
-import slip39seed from '@/components/default/seed/slip39/Slip39Seed'
+import xmrseed from '@/components/default/seed/xmr/xmrseed'
+import bip39seed from '@/components/default/seed/bip39/bip39seed'
+import slip39seed from '@/components/default/seed/slip39/slip39seed'
 
 import { Button, Input } from 'antd'
 import { useEffect, useState } from 'react'
