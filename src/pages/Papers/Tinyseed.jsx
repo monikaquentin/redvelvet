@@ -50,7 +50,7 @@ const TinySeed = ({ redL }) => {
       : /^\d+$/.test(trimmedValue) && parseInt(trimmedValue, 10) <= maxIndex && parseInt(trimmedValue, 10) > 0
     const inputIndex = (row - 1) * 4 + col - 1
 
-    if (inputValues.length <= inputIndex) {
+    if (isValidInput && inputValues.length <= inputIndex) {
       setInputValues((prevInputValues) => {
         const newInputValues = [...prevInputValues]
 

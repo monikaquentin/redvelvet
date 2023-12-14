@@ -17,13 +17,11 @@ export default defineConfig(({ mode }) => {
   //
   // eslint-disable-next-line
   const env = loadEnv(mode, process.cwd(), '')
-  const production = env.VITE_APP_ENV === 'production'
-
   return {
     define: {
       'process.env': env
     },
-    base: production ? '/__vite_base__/' : '/',
+    base: '/',
     plugins: [react(), proxy(commonProxy)],
     resolve: {
       alias: [
