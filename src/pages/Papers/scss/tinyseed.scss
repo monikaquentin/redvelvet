@@ -15,3 +15,63 @@ section .page-paper-index .paper-tinyseed .content-margin {
   text-justify
   mt-4;
 }
+section .page-paper-index .paper-tinyseed .seed-rows {
+  @apply flex
+  mb-2;
+}
+section .page-paper-index .paper-tinyseed .seed-selector {
+  @apply mt-4;
+}
+section .page-paper-index .paper-tinyseed .seed-selector button {
+  @apply mr-2.5;
+}
+section .page-paper-index .paper-tinyseed .seed-selector h1 {
+  @apply text-lg
+  font-bold
+  mt-4
+  md:mt-0;
+}
+section .page-paper-index .paper-tinyseed .seed-selector p {
+  @apply paragraph;
+}
+section .page-paper-index .paper-tinyseed .seed-selector .indexes-mode {
+  @apply red
+  font-semibold
+  cursor-pointer;
+}
+section .page-paper-index .paper-tinyseed .wrapper-seed-rows {
+  @apply mt-4;
+}
+section .page-paper-index .paper-tinyseed .wrapper-seed-rows .wrapper-input {
+  @apply flex
+  mb-2;
+}
+section .page-paper-index .paper-tinyseed .wrapper-table {
+  @apply overflow-x-auto
+  m-4;
+}
+section .page-paper-index .paper-tinyseed .wrapper-table table {
+  @apply w-full
+  table-auto;
+}
+section .page-paper-index .paper-tinyseed .wrapper-table table th {
+  @apply paragraph
+  text-center;
+}
+section .page-paper-index .paper-tinyseed .wrapper-table table .td-words {
+  @apply paragraph;
+  @apply font-semibold #{!important};
+}
+section .page-paper-index .paper-tinyseed .wrapper-table table .td-words p {
+  @apply red
+  font-semibold;
+}
+section .page-paper-index .paper-tinyseed .wrapper-table table .td-x p {
+  @apply paragraph
+  text-center;
+  @apply font-semibold #{!important};
+}
+section .page-paper-index .paper-tinyseed .wrapper-table table .td-strip p {
+  @apply paragraph
+  text-center;
+}

@@ -269,3 +269,7 @@ a:hover {
   text-[8.5px]
   leading-[11px];
 }
+.ant-btn-primary {
+  color: var(--primary-color);
+  border: 1px var(--gray-color) solid;
+}

@@ -13,16 +13,24 @@
           "lists": [
             {
               "title": "Seni Petak Umpet di Ruang Kecil: Tinyseed",
-              "subtitle": "4 Desember, 2023",
+              "subtitle": "14 Desember 2023",
               "url": "/write/tinyseed",
               "date": "Des 2023",
-              "repo": "tinyseed.io",
-              "repo_link": "https://tinyseed.io",
+              "official_tinyseed_link": {
+                "label": "tinyseed.io",
+                "link": "https://tinyseed.io"
+              },
               "warning": "Sama sekali tidak ada data yang keluar dari situs ini. Semuanya ada di mesin Anda, semua data yang antri di dalamnya segera dihapus setelah diproses.",
               "read_more": "Baca selengkapnya",
               "close": "Tutup",
-              "content": "Tinyseed memungkinkan Anda untuk mencadangkan frase benih atau bagian rahasia Shamir di dompet Anda. Ini memungkinkan Anda melindungi Bitcoin, Ethereum, dan NFT dari kerugian.",
-              "resolution": "Menemukan, "
+              "pre_content": "Implementasi digital dari ",
+              "content": ", Tinyseed memungkinkan Anda untuk mencadangkan frase benih atau bagian rahasia Shamir di dompet Anda. Ini memungkinkan Anda melindungi Bitcoin, Ethereum, dan NFT dari kehilangan.",
+              "sub_content": "Anda dapat mencetak (Ctrl+P atau ⌘ Command+P) halaman ini dan menyimpannya dengan aman.",
+              "choose_proposal": "Pilih salah satu proposal:",
+              "use": "gunakan",
+              "words": "kata-kata",
+              "indexes": "indeks",
+              "instead": "sebagai gantinya"
             },
             {
               "title": "Mencari Kebebasan Melampaui Lubang Kelinci: Tugas Akhir I",

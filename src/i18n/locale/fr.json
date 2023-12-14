@@ -13,16 +13,24 @@
           "lists": [
             {
               "title": "L'art de cache-cache dans les petits espaces : Tinyseed",
-              "subtitle": "4 Décembre 2023",
+              "subtitle": "14 Décembre 2023",
               "url": "/write/tinyseed",
               "date": "Déc 2023",
-              "repo": "tinyseed.io",
-              "repo_link": "https://tinyseed.io",
+              "official_tinyseed_link": {
+                "label": "tinyseed.io",
+                "link": "https://tinyseed.io"
+              },
               "warning": "Absolument aucune donnée ne quitte ce site. Tout est dans votre machine, toutes les données en file d'attente sont immédiatement purgées après avoir été traitées.",
               "read_more": "En savoir plus",
               "close": "Fermer",
-              "content": "Tinyseed vous permet de sauvegarder la phrase de départ ou les partages secrets de Shamir sur votre portefeuille. Il vous permet de protéger Bitcoin, Ethereum et NFT contre la perte.",
-              "resolution": "Découvrir, "
+              "pre_content": "Implémentation numérique de ",
+              "content": ", Tinyseed vous permet de sauvegarder la phrase de départ ou les partages secrets de Shamir sur votre portefeuille. Il vous permet de protéger Bitcoin, Ethereum et NFT contre la perte.",
+              "sub_content": "Vous pouvez imprimer (Ctrl+P ou ⌘ Commande+P) cette page et la conserver en sécurité.",
+              "choose_proposal": "Choisissez une des propositions:",
+              "use": "utilisez",
+              "words": "des mots",
+              "indexes": "index",
+              "instead": "plutôt"
             },
             {
               "title": "À la recherche de la liberté au-delà du terrier du lapin : Thèse I",

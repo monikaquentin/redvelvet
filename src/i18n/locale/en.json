@@ -13,16 +13,24 @@
           "lists": [
             {
               "title": "Art of Hide and Seek in Small Spaces: Tinyseed",
-              "subtitle": "December 4, 2023",
+              "subtitle": "December 14, 2023",
               "url": "/write/tinyseed",
               "date": "Dec 2023",
-              "repo": "tinyseed.io",
-              "repo_link": "https://tinyseed.io",
+              "official_tinyseed_link": {
+                "label": "tinyseed.io",
+                "link": "https://tinyseed.io"
+              },
               "warning": "There is Absolutely no data leaves this site. Everything is in your machine, all queued data on them are immediately purged after being processed.",
               "read_more": "Read More",
               "close": "Close",
-              "content": "Tinyseed enables you to back up the seed phrase or Shamir's secret shares of your wallet. It allows you to protect Bitcoin, Ethereum and NFT from loss.",
-              "resolution": "Discover, "
+              "pre_content": "Digital implementation of ",
+              "content": ", Tinyseed enables you to back up the seed phrase or Shamir's secret shares of your wallet. It allows you to protect Bitcoin, Ethereum and NFT from loss.",
+              "sub_content": "You can print (Ctrl+P or ⌘ Command+P) this page and keep it safe.",
+              "choose_proposal": "Choose one of the proposals:",
+              "use": "use",
+              "words": "words",
+              "indexes": "indexes",
+              "instead": "instead"
             },
             {
               "title": "Seeking Freedom Beyond the Rabbit Hole: Thesis I",

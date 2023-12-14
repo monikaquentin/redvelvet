@@ -12,17 +12,25 @@
         "paper": {
           "lists": [
             {
-              "title": "狭いスペースのかくれんぼの芸術: 小さな種",
-              "subtitle": "2023 年 12 月 4 日",
+              "title": "狭いスペースでの隠れんぼの芸術: 小さな種",
+              "subtitle": "2023 年 12 月 14 日",
               "url": "/write/tinyseed",
-              "date": "Dec 2023",
-              "repo": "tinyseed.io",
-              "repo_link": "https://tinyseed.io",
+              "date": "2023 年 12 月",
+              "official_tinyseed_link": {
+                "label": "tinyseed.io",
+                "link": "https://tinyseed.io"
+              },
               "warning": "このサイトから出るデータはまったくありません。 すべてがマシン内にあり、キューに入れられたすべてのデータは処理後すぐに削除されます。",
               "read_more": "続きを読む",
               "close": "近い",
-              "content": "Tinyseed を使用すると、ウォレットのシード フレーズまたは Shamir の秘密共有をバックアップできます。 これにより、ビットコイン、イーサリアム、NFT を損失から保護できます。",
-              "resolution": "発見する, "
+              "pre_content": "のデジタル実装 ",
+              "content": ", Tinyseed を使用すると、ウォレットのシード フレーズまたは Shamir の秘密共有をバックアップできます。 これにより、ビットコイン、イーサリアム、NFT を損失から保護できます。",
+              "sub_content": "このページを印刷 (Ctrl+P または ⌘ Command+P) して安全に保管できます。",
+              "choose_proposal": "提案の中から 1 つを選択してください:",
+              "use": "使う",
+              "words": "言葉",
+              "indexes": "インデックス",
+              "instead": "代わりに"
             },
             {
               "title": "ウサギの穴を超えた自由を求めて: テーゼ I",

@@ -13,16 +13,24 @@
           "lists": [
             {
               "title": "Kunst des Versteckens in kleinen Räumen: Tinyseed",
-              "subtitle": "4. Dezember 2023",
+              "subtitle": "14. Dezember 2023",
               "url": "/write/tinyseed",
-              "date": "Dec 2023",
-              "repo": "tinyseed.io",
-              "repo_link": "https://tinyseed.io",
+              "date": "Dez. 2023",
+              "official_tinyseed_link": {
+                "label": "tinyseed.io",
+                "link": "https://tinyseed.io"
+              },
               "warning": "Es gibt absolut keine Daten, die diese Website verlassen. Alles befindet sich auf Ihrem Computer, alle darauf befindlichen Daten werden nach der Verarbeitung sofort gelöscht.",
               "read_more": "Mehr lesen",
               "close": "Schließen",
-              "content": "Mit Tinyseed können Sie die Seed-Phrase oder Shamirs geheime Anteile Ihrer Wallet sichern. Damit können Sie Bitcoin, Ethereum und NFT vor Verlust schützen.",
-              "resolution": "Entdecken, "
+              "pre_content": "Digitale Umsetzung von ",
+              "content": ", Mit Tinyseed können Sie die Seed-Phrase oder Shamirs geheime Anteile Ihrer Wallet sichern. Damit können Sie Bitcoin, Ethereum und NFT vor Verlust schützen.",
+              "sub_content": "Sie können diese Seite ausdrucken (Strg+P oder ⌘ Befehl+P) und sicher aufbewahren.",
+              "choose_proposal": "Wählen Sie einen der Vorschläge:",
+              "use": "Verwenden",
+              "words": "Wörter",
+              "indexes": "Indizes",
+              "instead": "Sie stattdessen"
             },
             {
               "title": "Auf der Suche nach Freiheit jenseits des Kaninchenbaus: These I",
