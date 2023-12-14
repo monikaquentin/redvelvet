@@ -13,7 +13,26 @@ const BuyMeACoffee = ({ t }) => {
     { type: 'sc', trimStart: [0, 6], trimEnd: [37, 42] },
     { type: 'trx', trimStart: [0, 9], trimEnd: [30, 34] }
   ]
-  const getAddress = (currency) => import.meta.env[`VITE_BMAC_${currency.toUpperCase()}`]
+  const getAddress = (currency) => {
+    let addr
+    switch (currency) {
+      case 'btc':
+        addr = import.meta.env.VITE_BMAC_BTC
+        break
+      case 'xmr':
+        addr = import.meta.env.VITE_BMAC_XMR
+        break
+      case 'sc':
+        addr = import.meta.env.VITE_BMAC_SC
+        break
+      case 'trx':
+        addr = import.meta.env.VITE_BMAC_TRX
+        break
+      default:
+        break
+    }
+    return addr
+  }
   const handleCurrency = (currency) => setQrText(getAddress(currency))
   return (
     <Container header={{ title: t('pages.bmac.title'), subtitle: t('pages.bmac.last_update') }}>
