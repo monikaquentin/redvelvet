@@ -5,6 +5,7 @@
         "home": "RedVelvet",
         "write": {
           "title": "Menulis",
+          "subtitle": "Koleksi tulisan dan perangkat lunak",
           "pinned": "Disematkan",
           "latest": "Terbaru",
           "oldest": "Terlama"
@@ -14,6 +15,10 @@
             {
               "title": "Seni Petak Umpet di Ruang Kecil: Tinyseed",
               "subtitle": "14 Desember 2023",
+              "noprint": {
+                "title": true,
+                "subtitle": false
+              },
               "url": "/write/tinyseed",
               "date": "Des 2023",
               "official_tinyseed_link": {
@@ -35,6 +40,10 @@
             {
               "title": "Mencari Kebebasan Melampaui Lubang Kelinci: Tugas Akhir I",
               "subtitle": "September 15, 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/thesis",
               "date": "Sep 2023",
               "warning": "Dalam tahap perencanaan"
@@ -42,6 +51,10 @@
             {
               "title": "Menyelami Lubang Kelinci: Perspektif Ilmu Komputer",
               "subtitle": "12 September 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/perspective-of-computer-science",
               "date": "Sep 2023",
               "warning": "Peringatan: Catatan ini berisi opini, pengalaman pribadi, serta sudut pandang yang ekstrem tentang ilmu komputer dalam konteks perkuliahan. Tidak bermaksud untuk merendahkan atau menyinggung pihak mana pun; harap jangan mencernanya secara mentah-mentah tanpa pertimbangan lebih lanjut. Dengan menekan \"Baca selengkapnya\" anda telah dianggap paham.",
@@ -54,6 +67,10 @@
             {
               "title": "Bunga Mawar Merah yang Mekar: Pengantar",
               "subtitle": "24 Februari 2023\nTerakhir diperbarui pada 12 Desember 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/an-introduction",
               "date": "Feb 2023",
               "github_link": "https://github.com/monikaquentin",

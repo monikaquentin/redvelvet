@@ -11,7 +11,7 @@ const Write = ({ t, papers }) => {
   const latestPapers = isLatestFirst ? papers.slice().reverse() : papers
   const pinnedPapers = [3]
   return (
-    <Container header={{ title: t('pages.write.title') }}>
+    <Container header={{ title: t('pages.write.title'), subtitle: t('pages.write.subtitle') }}>
       <div className="page-write">
         <div className="button-wrapper">
           <button className="button-pinned">{t('pages.write.pinned')}</button>

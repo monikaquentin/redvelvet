@@ -5,6 +5,7 @@
         "home": "RedVelvet",
         "write": {
           "title": "Écrire",
+          "subtitle": "Collection de papiers et de logiciels",
           "pinned": "Épinglé",
           "latest": "Plus récent",
           "oldest": "Le plus ancien"
@@ -14,6 +15,10 @@
             {
               "title": "L'art de cache-cache dans les petits espaces : Tinyseed",
               "subtitle": "14 Décembre 2023",
+              "noprint": {
+                "title": true,
+                "subtitle": false
+              },
               "url": "/write/tinyseed",
               "date": "Déc 2023",
               "official_tinyseed_link": {
@@ -35,6 +40,10 @@
             {
               "title": "À la recherche de la liberté au-delà du terrier du lapin : Thèse I",
               "subtitle": "15 Septembre 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/thesis",
               "date": "Sep 2023",
               "warning": "En phase de planification"
@@ -42,6 +51,10 @@
             {
               "title": "Plonger dans le terrier du lapin : perspective de l'informatique",
               "subtitle": "12 Septembre 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/perspective-of-computer-science",
               "date": "Sep 2023",
               "warning": "Avertissement : ces notes contiennent des opinions, des expériences personnelles et des points de vue extrêmes sur l'informatique dans un contexte magistral. Non destiné à rabaisser ou offenser une quelconque partie; veuillez ne pas le digérer complètement sans autre réflexion. En appuyant sur « Lire la suite », vous êtes censé comprendre.",
@@ -54,6 +67,10 @@
             {
               "title": "Roses rouges en fleurs : une introduction",
               "subtitle": "24 février 2023\nDernière mise à jour le 12 décembre 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/an-introduction",
               "date": "fév 2023",
               "github_link": "https://github.com/monikaquentin",

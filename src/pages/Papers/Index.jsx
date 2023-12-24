@@ -20,7 +20,7 @@ const IndexPaper = ({ redL }) => {
   const currentPaper = location.pathname.match(/\/([^/]+)$/)?.[1]
   const Paper = papers[currentPaper]
   return (
-    <Container header={{ title: redL.title, subtitle: redL.subtitle }}>
+    <Container header={{ title: redL.title, subtitle: redL.subtitle, noprint: { title: redL.noprint.title } }}>
       <main className="page-paper-index">{Paper && <Paper redL={redL} />}</main>
     </Container>
   )

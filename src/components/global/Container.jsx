@@ -8,7 +8,7 @@ const Container = ({ sectionClass, children, header }) => {
     <div className="container">
       <section className={sectionClass}>
         <div className="content-wrapper">
-          <Header title={header.title} subtitle={header?.subtitle} />
+          <Header title={header.title} subtitle={header?.subtitle} noprint={header.noprint} />
           <hr />
           {children}
           <Footer />

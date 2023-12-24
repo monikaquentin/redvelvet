@@ -89,7 +89,7 @@ const TinySeed = ({ redL }) => {
 
   const renderSeedRows = () =>
     Array.from({ length: 6 }, (_, i) => (
-      <div key={i} className="seed-rows">
+      <div key={i} className="no-print seed-rows">
         {Array.from({ length: 4 }, (_, j) => {
           const inputKey = i * 4 + j + 1
           return (
@@ -113,18 +113,18 @@ const TinySeed = ({ redL }) => {
     ))
   return (
     <div className="paper-tinyseed">
-      <p className="warning-paragraph">{redL.warning}</p>
+      <p className="no-print warning-paragraph">{redL.warning}</p>
       <div className="content-section">
         {!read ? (
-          <span className="readmore-button" onClick={() => setRead(!read)}>
+          <span className="no-print readmore-button" onClick={() => setRead(!read)}>
             {redL.read_more}...
           </span>
         ) : (
           <div>
-            <span className="readmore-button" onClick={() => setRead(!read)}>
+            <span className="no-print readmore-button" onClick={() => setRead(!read)}>
               {redL.close}
             </span>
-            <p className="content-margin">
+            <p className="no-print content-margin">
               {redL.pre_content}
               <a href={redL.official_tinyseed_link.link} target="_blank" rel="noopener noreferrer nofollow">
                 {redL.official_tinyseed_link.label}
@@ -132,11 +132,12 @@ const TinySeed = ({ redL }) => {
               {redL.content}
             </p>
             <div className="seed-selector">
-              <span>{redL.choose_proposal}&nbsp;&nbsp;</span>
+              <span className="no-print">{redL.choose_proposal}&nbsp;&nbsp;</span>
               {proposalButtons.map(
                 (button) =>
                   selectedProposal !== button.key && (
                     <Button
+                      className="no-print"
                       key={button.key}
                       type="default"
                       size="small"
@@ -146,13 +147,13 @@ const TinySeed = ({ redL }) => {
                     </Button>
                   )
               )}
-              <h1>
+              <h1 className="no-print">
                 {selectedProposal.toUpperCase()} -&nbsp;
                 {!indexesMode
                   ? redL.words.charAt(0).toUpperCase() + redL.words.slice(1)
                   : redL.indexes.charAt(0).toUpperCase() + redL.indexes.slice(1)}
               </h1>
-              <p>
+              <p className="no-print">
                 {redL.use.charAt(0).toUpperCase() + redL.use.slice(1)}&nbsp;
                 <span
                   className="indexes-mode"
@@ -166,7 +167,7 @@ const TinySeed = ({ redL }) => {
                 &nbsp;{redL.instead}
               </p>
               {seedData.length > 0 && (
-                <div className="wrapper-seed-rows">
+                <div className="no-print wrapper-seed-rows">
                   {renderSeedRows()}
                   <div className="wrapper-input">
                     <Input
@@ -183,7 +184,7 @@ const TinySeed = ({ redL }) => {
               )}
               <div className="wrapper-table">
                 <table>
-                  <thead>
+                  <thead className="no-print">
                     <tr>
                       <th></th>
                       {totalizer.map((number, index) => (
@@ -200,7 +201,7 @@ const TinySeed = ({ redL }) => {
 
                       return (
                         <tr key={rowIndex}>
-                          <td className="td-words">
+                          <td className="no-print td-words">
                             <p>{(!indexesMode ? seedData.indexOf(word) + 1 : seedData[word - 1]) || '-'}</p>
                           </td>
                           {totalizer.map((numItem, colIndex) => {
@@ -227,7 +228,7 @@ const TinySeed = ({ redL }) => {
                   </tbody>
                 </table>
               </div>
-              {selectedProposal && <p className="info-paragraph">{redL.sub_content}</p>}
+              {selectedProposal && <p className="no-print info-paragraph">{redL.sub_content}</p>}
             </div>
           </div>
         )}

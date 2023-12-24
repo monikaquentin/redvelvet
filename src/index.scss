@@ -25,6 +25,12 @@
     */
 @tailwind variants;
 
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
 /* other css file imports */
 @import url('@/components/global/scss/navigation.scss');
 @import url('@/components/global/scss/container.scss');

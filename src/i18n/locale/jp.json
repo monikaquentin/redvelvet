@@ -5,6 +5,7 @@
         "home": "RedVelvet",
         "write": {
           "title": "書く",
+          "subtitle": "論文とソフトウェアのコレクション",
           "pinned": "固定された",
           "latest": "最新",
           "oldest": "最古"
@@ -14,6 +15,10 @@
             {
               "title": "狭いスペースでの隠れんぼの芸術: 小さな種",
               "subtitle": "2023 年 12 月 14 日",
+              "noprint": {
+                "title": true,
+                "subtitle": false
+              },
               "url": "/write/tinyseed",
               "date": "2023 年 12 月",
               "official_tinyseed_link": {
@@ -35,6 +40,10 @@
             {
               "title": "ウサギの穴を超えた自由を求めて: テーゼ I",
               "subtitle": "2023 年 9 月 15 日",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/thesis",
               "date": "2023 年 9 月",
               "warning": "計画段階では"
@@ -42,6 +51,10 @@
             {
               "title": "ウサギの穴に飛び込む: コンピューター サイエンスの視点",
               "subtitle": "2023 年 9 月 12日",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/perspective-of-computer-science",
               "date": "2023 年 9 月",
               "warning": "警告: これらのメモには、講義におけるコンピューター サイエンスに関する意見、個人的な経験、極端な視点が含まれています。 当事者を貶めたり気分を害したりすることを目的としたものではありません。 何も考えずに完全に消化しないでください。 「続きを読む」を押すと理解したものとみなされます。",
@@ -54,6 +67,10 @@
             {
               "title": "咲く赤いバラ: はじめに",
               "subtitle": "2023 年 2 月 24 日\n最終更新日 2023 年 12 月 12 日",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/an-introduction",
               "date": "2023 年 2 月",
               "github_link": "https://github.com/monikaquentin",

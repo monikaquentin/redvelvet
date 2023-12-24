@@ -5,6 +5,7 @@
         "home": "RedVelvet",
         "write": {
           "title": "Schreiben",
+          "subtitle": "Sammlung von Dokumenten und Software",
           "pinned": "Angepinnt",
           "latest": "Neueste",
           "oldest": "Älteste"
@@ -14,6 +15,10 @@
             {
               "title": "Kunst des Versteckens in kleinen Räumen: Tinyseed",
               "subtitle": "14. Dezember 2023",
+              "noprint": {
+                "title": true,
+                "subtitle": false
+              },
               "url": "/write/tinyseed",
               "date": "Dez. 2023",
               "official_tinyseed_link": {
@@ -35,6 +40,10 @@
             {
               "title": "Auf der Suche nach Freiheit jenseits des Kaninchenbaus: These I",
               "subtitle": "15. September 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/thesis",
               "date": "Sep 2023",
               "warning": "In der Planungsphase"
@@ -42,6 +51,10 @@
             {
               "title": "Eintauchen in den Kaninchenbau: Perspektive der Informatik",
               "subtitle": "12. September 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/perspective-of-computer-science",
               "date": "Sep 2023",
               "warning": "Achtung: Diese Notizen enthalten Meinungen, persönliche Erfahrungen und extreme Standpunkte zur Informatik im Vorlesungskontext. Es ist nicht dazu gedacht, eine Partei zu erniedrigen oder zu beleidigen; bitte verdauen Sie es nicht ohne weitere Überlegung. Wenn Sie auf „Weiterlesen“ klicken, erklären Sie sich damit einverstanden.",
@@ -54,6 +67,10 @@
             {
               "title": "Blühende rote Rosen: Eine Einführung",
               "subtitle": "24. Februar 2023\nLetzte Aktualisierung am 12. Dezember 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/an-introduction",
               "date": "Feb 2023",
               "github_link": "https://github.com/monikaquentin",

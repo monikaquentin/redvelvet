@@ -5,6 +5,7 @@
         "home": "RedVelvet",
         "write": {
           "title": "Write",
+          "subtitle": "Collection of papers and software",
           "pinned": "Pinned",
           "latest": "Latest",
           "oldest": "Oldest"
@@ -14,6 +15,10 @@
             {
               "title": "Art of Hide and Seek in Small Spaces: Tinyseed",
               "subtitle": "December 14, 2023",
+              "noprint": {
+                "title": true,
+                "subtitle": false
+              },
               "url": "/write/tinyseed",
               "date": "Dec 2023",
               "official_tinyseed_link": {
@@ -35,6 +40,10 @@
             {
               "title": "Seeking Freedom Beyond the Rabbit Hole: Thesis I",
               "subtitle": "September 15, 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/thesis-i",
               "date": "Sep 2023",
               "warning": "In the planning stage"
@@ -42,6 +51,10 @@
             {
               "title": "Diving into the Rabbit Hole: Perspective of Computer Science",
               "subtitle": "September 12, 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/perspective-of-computer-science",
               "date": "Sep 2023",
               "warning": "Warning: These notes contain opinions, personal experiences, and extreme points of view about computer science in a lecture context. Not intended to demean or offend any party; please do not digest it completely without further consideration. By pressing \"Read more\" you are deemed to understand.",
@@ -54,6 +67,10 @@
             {
               "title": "Blooming Red Roses: An Introduction",
               "subtitle": "February 24, 2023\nLast updated on December 12, 2023",
+              "noprint": {
+                "title": false,
+                "subtitle": false
+              },
               "url": "/write/an-introduction",
               "date": "Feb 2023",
               "github_link": "https://github.com/monikaquentin",
